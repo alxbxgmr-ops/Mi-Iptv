@@ -41,6 +41,8 @@ https://streamlov.alsolnet.com/cadena103/live/playlist.m3u8
 https://nd106.republicaservers.com:4433/hls/c6611/index.m3u8
 #EXTINF:-1 tvg-id="Canal2Gualeguay.ar@SD" tvg-logo="https://i.imgur.com/TOlncyp.png" group-title="General",Canal 2 Gualeguay
 https://stream.arcast.net:4443/gualeguay/gualeguay/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal2MardelPlata.ar@SD" tvg-logo="https://i.imgur.com/wlKFPBW.jpeg" group-title="General",Canal 2 Mar del Plata (720p)
+https://tv.streamcasthd.com:3641/live/canal2mdplive.m3u8
 #EXTINF:-1 tvg-id="Canal2Misiones.ar@SD" tvg-logo="https://i.imgur.com/YqTNXDf.png" group-title="Undefined",Canal 2 Misiones (1080p)
 https://nd106.republicaservers.com:4433/hls/canal2misioness/index.m3u8
 #EXTINF:-1 tvg-id="Canal2NexTVRafaela.ar@SD" tvg-logo="https://i.imgur.com/hgj3CaR.jpeg" group-title="General",Canal 2 NexTV Rafaela (720p)
@@ -9866,6 +9868,8 @@ http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/560817.mkv
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/560818.mkv
 #EXTINF:-1 tvg-id="" tvg-name="¿Conoces a Tomás? (2019)" tvg-logo="http://redworld.pro:8880/images/e3dec213e0c1302ce1082e933bcd2237.jpg" group-title="⭐️Variadas",¿Conoces a Tomás? (2019)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/560819.mkv
+#EXTINF:-1 tvg-id="" tvg-name="SEÑAL EXCLUSIVA" tvg-logo="http://redworld.pro:8880/images/c8e7a6a4e47e499e60e09efbf6347eee.png" group-title="⭐️MLS-INTER MIAMI EXCLUSIVO⭐️",SEÑAL EXCLUSIVA
+http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/533062
 #EXTINF:-1 tvg-id="" tvg-name="Abraham \ (1993)" tvg-logo="http://redworld.pro:8880/images/3d1301b418afa1bc34e934a944043cf5.jpg" group-title="✝️ Semana Santa ✝️",Abraham \ (1993)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/560826.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Abraham El Sacrificio de Issac \ (1985)" tvg-logo="http://redworld.pro:8880/images/3d1301b418afa1bc34e934a944043cf5.jpg" group-title="✝️ Semana Santa ✝️",Abraham El Sacrificio de Issac \ (1985)
@@ -10854,7 +10858,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/561485
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/561486
 #EXTINF:-1 tvg-id="" tvg-name="*Ə$*PN 3" tvg-logo="http://redworld.pro:8880/images/65b140dd9ebf0ec2b2a8c1565fa90080.png" group-title="LIGA DE CAMPEONES 2026/27",*Ə$*PN 3
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/561487
-#EXTINF:-1 tvg-id="" tvg-name="$ŠPN-4" tvg-logo="http://redworld.pro:8880/images/9c83acb71e6f939bae03936d2c827d7c.png" group-title="LIGA DE CAMPEONES 2026/27",$ŠPN-4
+#EXTINF:-1 tvg-id="" tvg-name="*Ə*$P*N 4" tvg-logo="http://redworld.pro:8880/images/9c83acb71e6f939bae03936d2c827d7c.png" group-title="LIGA DE CAMPEONES 2026/27",*Ə*$P*N 4
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/561488
-#EXTINF:-1 tvg-id="" tvg-name="$.Š.P.N 5" tvg-logo="http://redworld.pro:8880/images/4d22fe6b127ecce043d9482a792b020f.png" group-title="LIGA DE CAMPEONES 2026/27",$.Š.P.N 5
+#EXTINF:-1 tvg-id="" tvg-name="*Ə*$P*N 5" tvg-logo="http://redworld.pro:8880/images/4d22fe6b127ecce043d9482a792b020f.png" group-title="LIGA DE CAMPEONES 2026/27",*Ə*$P*N 5
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/561489
