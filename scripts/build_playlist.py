@@ -39,6 +39,13 @@ EPG_MAP = [
     (re.compile(r'\btelefe\b', re.IGNORECASE), "Telefe.ar"),
     (re.compile(r'\bc5n\b', re.IGNORECASE), "C5N.ar"),
     (re.compile(r'\ba24\b', re.IGNORECASE), "A24.ar"),
+    (re.compile(r'trece', re.IGNORECASE), "ElTrece.ar"),
+    (re.compile(r'\btn\b', re.IGNORECASE), "TodoNoticias.ar"),
+    (re.compile(r't[vy]\s*p.blica', re.IGNORECASE), "TVPublica.ar"),
+    (re.compile(r'net\s*tv', re.IGNORECASE), "NETTV.ar"),
+    (re.compile(r'el\s*nueve', re.IGNORECASE), "ElNueve.ar"),
+    (re.compile(r'canal\s*26', re.IGNORECASE), "Canal26.ar"),
+    (re.compile(r'cronica', re.IGNORECASE), "CronicaTV.ar"),
 ]
 
 def get_group(extinf_line):
