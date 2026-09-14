@@ -84,14 +84,17 @@ def keep_xtream_entry(extinf_line):
 def keep_ar_entry(extinf_line):
     return not is_adult(extinf_line)
 
-def fetch(url, retries=8, base_delay=5, max_delay=60):
+def fetch(url, retries=8, base_delay=5, max_delay=60, timeout=30):
     last_error = None
     delay = base_delay
     for attempt in range(1, retries + 1):
+        print(f"Descargando {url[:50]}... (intento {attempt}/{retries})")
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                return resp.read().decode("utf-8", errors="ignore")
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                data = resp.read().decode("utf-8", errors="ignore")
+                print(f"Descarga OK ({len(data)} caracteres)")
+                return data
         except Exception as e:
             last_error = e
             print(f"Intento {attempt}/{retries} fallo para {url}: {e}")
