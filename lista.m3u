@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz,https://iptv-org.github.io/epg/guides/tv/argentina.epg.xml"
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz,https://iptv-org.github.io/epg/guides/tv/argentina.epg.xml,https://www.open-epg.com/files/argentina4.xml"
 #EXTINF:-1 tvg-id="5tv.ar@SD" tvg-logo="https://i.imgur.com/mSn7ACs.png" group-title="General",5tv
 https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="247CanaldeNoticias.ar@SD" tvg-logo="https://i.imgur.com/4hDCB1M.png" group-title="News",24/7 Canal de Noticias
@@ -17,7 +17,7 @@ http://15.204.246.24:8080/AMCHD/index.m3u8
 #EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" http-user-agent="Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36" group-title="General",America TV (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
-#EXTINF:-1 tvg-id="ArgentinisimaSatelital.ar@SD" tvg-logo="https://i.imgur.com/xFgJawa.png" group-title="General",Argentinísima Satelital (540p)
+#EXTINF:-1 tvg-id="ARGENTINISIMA.ar" tvg-logo="https://i.imgur.com/xFgJawa.png" group-title="General",Argentinísima Satelital (540p)
 https://stream1.sersat.com/hls/argentinisima.m3u8
 #EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Movies",AXN Latin America South
 http://45.228.235.116:8000/play/a0iy/index.m3u8
@@ -131,7 +131,7 @@ https://streamconex.com:19360/villamaza/villamaza.m3u8
 https://vivo.solumedia.com:19360/cardinal/cardinal.m3u8
 #EXTINF:-1 tvg-id="CanalE.ar@SD" tvg-logo="https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg" group-title="Business;News",Canal E (720p)
 https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalLuz.ar@SD" tvg-logo="https://i.imgur.com/GnY6dNT.png" group-title="Religious",Canal Luz
+#EXTINF:-1 tvg-id="CANAL LUZ.ar" tvg-logo="https://i.imgur.com/GnY6dNT.png" group-title="Religious",Canal Luz
 https://g4.vxral-hor.transport.edge-access.net/a11/ngrp:canal_luz01-100009_all/Playlist.m3u8
 #EXTINF:-1 tvg-id="CanalOrbe21.ar@SD" tvg-logo="https://i.imgur.com/USD6Wn8.png" group-title="Religious",Canal Orbe 21
 https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
@@ -159,7 +159,7 @@ https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8
 https://5f700d5b2c46f.streamlock.net/chacratv/chacratv/playlist.m3u8
 #EXTINF:-1 tvg-id="ChamameTV.ar@SD" tvg-logo="https://i.imgur.com/JigzJck.png" group-title="Music",Chamame TV
 https://srv4.zcast.com.br/chamametv/chamametv/playlist.m3u8
-#EXTINF:-1 tvg-id="Cinecanal.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/960px-CinecanalLA.png" group-title="Movies",Cinecanal South (1080p)
+#EXTINF:-1 tvg-id="CINECANAL.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/960px-CinecanalLA.png" group-title="Movies",Cinecanal South (1080p)
 http://45.162.193.35/CINECANAL/index.m3u8
 #EXTINF:-1 tvg-id="CiudadMagica.ar@SD" tvg-logo="https://i.imgur.com/HJkSz2U.png" group-title="Outdoor",Ciudad Magica (720p)
 https://lbgo.bozztv.com/ssh101/ssh101/verycoolfgr/playlist.m3u8
@@ -195,7 +195,7 @@ http://138.121.113.175:8000/play/a0cj/index.m3u8
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/entertainment.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="EcoTV.ar@SD" tvg-logo="https://i.imgur.com/V2ldYVd.jpg" group-title="General",Eco TV
 https://stream.arcast.com.ar/ecotv/ngrp:ecotv_all/playlist.m3u8
-#EXTINF:-1 tvg-id="ElGourmet.ar" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="Cooking",El Gourmet South (1080p)
+#EXTINF:-1 tvg-id="EL GOURMET.ar" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="Cooking",El Gourmet South (1080p)
 https://iptv.bitred.cl/ELGOURMET_HD/index.m3u8
 #EXTINF:-1 tvg-id="ElNueve.ar" tvg-logo="https://i.imgur.com/cJHP7bU.png" group-title="General",El Nueve (1080p)
 http://15.204.246.24:8080/elnueveHD/index.m3u8
@@ -203,7 +203,7 @@ http://15.204.246.24:8080/elnueveHD/index.m3u8
 https://edgectc.com/CANAL7_MZA/index.m3u8
 #EXTINF:-1 tvg-id="ElTrece.ar" tvg-logo="https://i.imgur.com/TrgBAdA.png" group-title="General",El Trece (1080p)
 http://15.204.246.24:8080/eltreceHD/index.m3u8
-#EXTINF:-1 tvg-id="EuropaEuropa.ar@SD" tvg-logo="https://i.imgur.com/w5SOfyJ.png" group-title="Series",Europa Europa (1080p)
+#EXTINF:-1 tvg-id="EUROPA EUROPA.ar" tvg-logo="https://i.imgur.com/w5SOfyJ.png" group-title="Series",Europa Europa (1080p)
 https://iptv.bitred.cl/EUROPAEUROPA_HD/index.m3u8
 #EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="Sports",FIFA+ Hispanic America (720p)
 https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
@@ -283,7 +283,7 @@ https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
 https://stmv6.voxtvhd.com.br/solivetv/solivetv/playlist.m3u8
 #EXTINF:-1 tvg-id="SomosEntreRios.ar@SD" tvg-logo="https://files.catbox.moe/ufv5z0.png" group-title="Culture;Family;General",Somos Entre Rios (360p)
 https://live20.bozztv.com/akamaissh101/ssh101/somosentrerios/playlist.m3u8
-#EXTINF:-1 tvg-id="SonyChannel.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Undefined",Sony Channel (1080p)
+#EXTINF:-1 tvg-id="SONY.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Undefined",Sony Channel (1080p)
 http://138.121.15.230:9002/SONY/index.m3u8
 #EXTINF:-1 tvg-id="T5Satelital.ar@SD" tvg-logo="https://i.imgur.com/ZcD0rUP.png" group-title="Undefined",T5 Satelital
 https://stream.t5satelital.blog/hls/t5satelitalweb.m3u8
@@ -303,9 +303,9 @@ https://smt-usr-edge01.sensa.com.ar/output/ARR2/TelefeRosarioH/playlist.m3u8
 https://canal11saltatv.unpocodeawita.workers.dev/
 #EXTINF:-1 tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Telefe_Tucum%C3%A1n_%282018%29.png/960px-Telefe_Tucum%C3%A1n_%282018%29.png" group-title="Undefined",Telefe Tucuman (1080p)
 https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
-#EXTINF:-1 tvg-id="Telemax.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png" group-title="Undefined",Telemax
+#EXTINF:-1 tvg-id="TELEMAX.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png" group-title="Undefined",Telemax
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
-#EXTINF:-1 tvg-id="TelemundoInternacional.us@South" tvg-logo="https://i.imgur.com/j2O4ndp.png" group-title="General",Telemundo Internacional (1080p)
+#EXTINF:-1 tvg-id="TELEMUNDO.ar" tvg-logo="https://i.imgur.com/j2O4ndp.png" group-title="General",Telemundo Internacional (1080p)
 http://138.121.15.230:9002/TELEMUNDO/index.m3u8
 #EXTINF:-1 tvg-id="Telenord.ar@SD" tvg-logo="https://i.imgur.com/yqXORkt.png" group-title="Undefined",Telenord Corrientes (1080p) [Not 24/7]
 http://www.coninfo.net:1935/previsoratv/live/playlist.m3u8
@@ -315,9 +315,9 @@ https://cdn1.tvlin.net/open/telesol/playlist.m3u8
 https://5f700d5b2c46f.streamlock.net/thecabinn/thecabinn/playlist.m3u8
 #EXTINF:-1 tvg-id="TIVTelevision.ar@SD" tvg-logo="https://i.imgur.com/gsgXGEj.png" group-title="Undefined",TIV Television (720p)
 https://videohd.live:19360/8008/8008.m3u8
-#EXTINF:-1 tvg-id="TodoNoticias.ar" tvg-logo="https://i.imgur.com/vFwPhPS.png" group-title="News",TN (1080p)
+#EXTINF:-1 tvg-id="TN.ar" tvg-logo="https://i.imgur.com/vFwPhPS.png" group-title="News",TN (1080p)
 http://15.204.246.24:8080/TNHD/index.m3u8
-#EXTINF:-1 tvg-id="TNTNovelas.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/TNT_Novelas_2025.svg/1920px-TNT_Novelas_2025.svg.png" group-title="Series",TNT Novelas (1080p)
+#EXTINF:-1 tvg-id="TNT NOVELAS.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/TNT_Novelas_2025.svg/1920px-TNT_Novelas_2025.svg.png" group-title="Series",TNT Novelas (1080p)
 http://190.93.224.42/TNT-NOVELAS/index.m3u8
 #EXTINF:-1 tvg-id="TVCanal72.ar@SD" tvg-logo="https://tvcanal72.com.ar/wp-content/uploads/2022/08/LOGO-CANAL-72-1-1024x256.png" group-title="General",TV Canal 72
 https://stmv1.voxtvhd.com.br/canal72tv2/canal72tv2/playlist.m3u8
@@ -329,7 +329,7 @@ https://nd106.republicaservers.com/hls/c8094/index.m3u8
 https://canadaremar2.todostreaming.es/live/argentina-web.m3u8
 #EXTINF:-1 tvg-id="TVUniversidad.ar@SD" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
 https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
-#EXTINF:-1 tvg-id="TyCSports.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="Sports",TyC Sports (1080p)
+#EXTINF:-1 tvg-id="TYC SPORTS.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="Sports",TyC Sports (1080p)
 http://45.181.87.106/TYCSPORTSHD/index.m3u8
 #EXTINF:-1 tvg-id="UnifeTV.ar@SD" tvg-logo="https://i.imgur.com/TLM592m.png" group-title="Religious",Unife TV
 https://cdn.mycloudstream.io/hls/live/broadcast/xundwjvp/index.m3u8
@@ -363,13 +363,13 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/135427
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/135429
 #EXTINF:-1 tvg-id="" tvg-name="Latino | Canal 5" tvg-logo="http://redworld.pro:8880/images/a6347a1fdacab7eaee2f8a72a0dc421d.png" group-title="⭐️ Telenovelas",Latino | Canal 5
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/135430
-#EXTINF:-1 tvg-id="" tvg-name="Latino | Canal De Las Estrellas" tvg-logo="http://redworld.pro:8880/images/08a8ff2273ed6b7a6fa12dacc5b20a6d.png" group-title="⭐️ Telenovelas",Latino | Canal De Las Estrellas
+#EXTINF:-1 tvg-id="LAS ESTRELLAS.ar" tvg-name="Latino | Canal De Las Estrellas" tvg-logo="http://redworld.pro:8880/images/08a8ff2273ed6b7a6fa12dacc5b20a6d.png" group-title="⭐️ Telenovelas",Latino | Canal De Las Estrellas
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/135431
 #EXTINF:-1 tvg-id="" tvg-name="Latino | Glitz" tvg-logo="http://redworld.pro:8880/images/3cc08b1c9d27766ef4324e457791f37b.png" group-title="⭐️ Telenovelas",Latino | Glitz
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/135432
 #EXTINF:-1 tvg-id="" tvg-name="Latino | Pasiones" tvg-logo="http://redworld.pro:8880/images/e470b16ca9c0f5a4deb717bdd7866f7f.png" group-title="⭐️ Telenovelas",Latino | Pasiones
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/135435
-#EXTINF:-1 tvg-id="" tvg-name="Latino | TLNovelas" tvg-logo="http://redworld.pro:8880/images/efd44a468c4d56cd88590b069b3fd14a.png" group-title="⭐️ Telenovelas",Latino | TLNovelas
+#EXTINF:-1 tvg-id="TLNOVELAS.ar" tvg-name="Latino | TLNovelas" tvg-logo="http://redworld.pro:8880/images/efd44a468c4d56cd88590b069b3fd14a.png" group-title="⭐️ Telenovelas",Latino | TLNovelas
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/135436
 #EXTINF:-1 tvg-id="" tvg-name="TL Novelas Univision" tvg-logo="http://redworld.pro:8880/images/86a28a66b5085df833f6b06f70e2dc55.png" group-title="⭐️ Telenovelas",TL Novelas Univision
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/135439
@@ -447,9 +447,9 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/167730
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/167774
 #EXTINF:-1 tvg-id="" tvg-name="Latino | RCN Novelas" tvg-logo="http://redworld.pro:8880/images/0bc4724b5875aafbc65f57a9fdabd162.png" group-title="⭐️ Telenovelas",Latino | RCN Novelas
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/308075
-#EXTINF:-1 tvg-id="DiscoveryChannel.pe" tvg-name="Discovery Channel HD" tvg-logo="http://redworld.pro:8880/images/12a8ebd221c1cc385dc020a7d31e8cce.png" group-title="⭐️ CULTURA",Discovery Channel HD
+#EXTINF:-1 tvg-id="DISCOVERY CHANNEL HD.ar" tvg-name="Discovery Channel HD" tvg-logo="http://redworld.pro:8880/images/12a8ebd221c1cc385dc020a7d31e8cce.png" group-title="⭐️ CULTURA",Discovery Channel HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318603
-#EXTINF:-1 tvg-id="DiscoveryChannel.pe" tvg-name="Discovery Channel SD" tvg-logo="http://redworld.pro:8880/images/12a8ebd221c1cc385dc020a7d31e8cce.png" group-title="⭐️ CULTURA",Discovery Channel SD
+#EXTINF:-1 tvg-id="DISCOVERY CHANNEL.ar" tvg-name="Discovery Channel SD" tvg-logo="http://redworld.pro:8880/images/12a8ebd221c1cc385dc020a7d31e8cce.png" group-title="⭐️ CULTURA",Discovery Channel SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318604
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Home & Health HD" tvg-logo="http://redworld.pro:8880/images/980dba9f836545ed57db65c90a92b7a7.png" group-title="⭐️ CULTURA",Discovery Home & Health HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318605
@@ -457,37 +457,37 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318605
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318606
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Investigation HD" tvg-logo="http://redworld.pro:8880/images/b77369bd453a2ebf8b5391cfac3ab24a.png" group-title="⭐️ CULTURA",Discovery Investigation HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318607
-#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY Science" tvg-logo="http://redworld.pro:8880/images/d69e2b874961c77fcc63cc7798a56b85.png" group-title="⭐️ CULTURA",DISCOVERY Science
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE.ar" tvg-name="DISCOVERY Science" tvg-logo="http://redworld.pro:8880/images/d69e2b874961c77fcc63cc7798a56b85.png" group-title="⭐️ CULTURA",DISCOVERY Science
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318608
-#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY Theater HD" tvg-logo="http://redworld.pro:8880/images/a109eebfce6f68ed725f7fa89a059728.png" group-title="⭐️ CULTURA",DISCOVERY Theater HD
+#EXTINF:-1 tvg-id="DISCOVERY THEATER HD.ar" tvg-name="DISCOVERY Theater HD" tvg-logo="http://redworld.pro:8880/images/a109eebfce6f68ed725f7fa89a059728.png" group-title="⭐️ CULTURA",DISCOVERY Theater HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318609
 #EXTINF:-1 tvg-id="" tvg-name="DISCOVERY Theater" tvg-logo="http://redworld.pro:8880/images/a109eebfce6f68ed725f7fa89a059728.png" group-title="⭐️ CULTURA",DISCOVERY Theater
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318610
-#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY Turbo HD" tvg-logo="http://redworld.pro:8880/images/1463afaef86d27073fa41c8053a853a4.png" group-title="⭐️ CULTURA",DISCOVERY Turbo HD
+#EXTINF:-1 tvg-id="DISCOVERY TURBO HD.ar" tvg-name="DISCOVERY Turbo HD" tvg-logo="http://redworld.pro:8880/images/1463afaef86d27073fa41c8053a853a4.png" group-title="⭐️ CULTURA",DISCOVERY Turbo HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318611
 #EXTINF:-1 tvg-id="" tvg-name="DISCOVERY World SD" tvg-logo="http://redworld.pro:8880/images/8cd8bfde4f3359975e55ffef11065a50.png" group-title="⭐️ CULTURA",DISCOVERY World SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318612
-#EXTINF:-1 tvg-id="" tvg-name="DISCOVERY World HD" tvg-logo="http://redworld.pro:8880/images/8cd8bfde4f3359975e55ffef11065a50.png" group-title="⭐️ CULTURA",DISCOVERY World HD
+#EXTINF:-1 tvg-id="DISCOVERY WORLD HD.ar" tvg-name="DISCOVERY World HD" tvg-logo="http://redworld.pro:8880/images/8cd8bfde4f3359975e55ffef11065a50.png" group-title="⭐️ CULTURA",DISCOVERY World HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318613
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Familia FHD" tvg-logo="http://redworld.pro:8880/images/b7664c449eaa2b5da315f071351f39e7.png" group-title="⭐️ CULTURA",Discovery Familia FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318614
 #EXTINF:-1 tvg-id="" tvg-name="Discovery Familia HD" tvg-logo="http://redworld.pro:8880/images/b7664c449eaa2b5da315f071351f39e7.png" group-title="⭐️ CULTURA",Discovery Familia HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318615
-#EXTINF:-1 tvg-id="ElGourmet.ar" tvg-name="EL GOURMET" tvg-logo="http://redworld.pro:8880/images/0e8398e1532318e98927555bc11e0ae1.png" group-title="⭐️ CULTURA",EL GOURMET
+#EXTINF:-1 tvg-id="" tvg-name="EL GOURMET" tvg-logo="http://redworld.pro:8880/images/0e8398e1532318e98927555bc11e0ae1.png" group-title="⭐️ CULTURA",EL GOURMET
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318616
-#EXTINF:-1 tvg-id="History.pe" tvg-name="HISTORY HD" tvg-logo="http://redworld.pro:8880/images/808e99e2aae48ae0129de1185b97dccb.png" group-title="⭐️ CULTURA",HISTORY HD
+#EXTINF:-1 tvg-id="HISTORY HD.ar" tvg-name="HISTORY HD" tvg-logo="http://redworld.pro:8880/images/808e99e2aae48ae0129de1185b97dccb.png" group-title="⭐️ CULTURA",HISTORY HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318617
-#EXTINF:-1 tvg-id="History2.pe" tvg-name="History 2 " tvg-logo="http://redworld.pro:8880/images/f9038ee8520c9eef7f168d1877caac8b.png" group-title="⭐️ CULTURA",History 2 
+#EXTINF:-1 tvg-id="HISTORY.ar" tvg-name="History 2 " tvg-logo="http://redworld.pro:8880/images/f9038ee8520c9eef7f168d1877caac8b.png" group-title="⭐️ CULTURA",History 2 
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318618
-#EXTINF:-1 tvg-id="History2.pe" tvg-name="History 2 HD" tvg-logo="http://redworld.pro:8880/images/f9038ee8520c9eef7f168d1877caac8b.png" group-title="⭐️ CULTURA",History 2 HD
+#EXTINF:-1 tvg-id="HISTORY.ar" tvg-name="History 2 HD" tvg-logo="http://redworld.pro:8880/images/f9038ee8520c9eef7f168d1877caac8b.png" group-title="⭐️ CULTURA",History 2 HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318619
 #EXTINF:-1 tvg-id="" tvg-name="NATIONAL Geographic FHD" tvg-logo="http://redworld.pro:8880/images/7a9d62e859726cf7afa212b05ad79f7f.png" group-title="⭐️ CULTURA",NATIONAL Geographic FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318620
-#EXTINF:-1 tvg-id="" tvg-name="NAT Geo HD" tvg-logo="http://redworld.pro:8880/images/7a9d62e859726cf7afa212b05ad79f7f.png" group-title="⭐️ CULTURA",NAT Geo HD
+#EXTINF:-1 tvg-id="NAT GEO.ar" tvg-name="NAT Geo HD" tvg-logo="http://redworld.pro:8880/images/7a9d62e859726cf7afa212b05ad79f7f.png" group-title="⭐️ CULTURA",NAT Geo HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318621
 #EXTINF:-1 tvg-id="" tvg-name="NATGEO WILD HD" tvg-logo="http://redworld.pro:8880/images/2f41b8dc685ce23fc3d65959372de685.png" group-title="⭐️ CULTURA",NATGEO WILD HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318623
-#EXTINF:-1 tvg-id="" tvg-name="ANIMAL Planet HD." tvg-logo="http://redworld.pro:8880/images/eeafe792a8138ea5239764881a44e50e.png" group-title="⭐️ CULTURA",ANIMAL Planet HD.
+#EXTINF:-1 tvg-id="ANIMAL PLANET HD.ar" tvg-name="ANIMAL Planet HD." tvg-logo="http://redworld.pro:8880/images/eeafe792a8138ea5239764881a44e50e.png" group-title="⭐️ CULTURA",ANIMAL Planet HD.
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318624
 #EXTINF:-1 tvg-id="" tvg-name="E! Entretainment FHD" tvg-logo="http://redworld.pro:8880/images/d2013b7cc5f536c09e36980ede2b5ebc.png" group-title="⭐️ CULTURA",E! Entretainment FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318626
@@ -495,33 +495,33 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318626
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318627
 #EXTINF:-1 tvg-id="" tvg-name="CANAL COCINA HD." tvg-logo="http://redworld.pro:8880/images/faced036eb73698d8950976cac5c442d.png" group-title="⭐️ CULTURA",CANAL COCINA HD.
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318628
-#EXTINF:-1 tvg-id="" tvg-name="TLC FHD" tvg-logo="http://redworld.pro:8880/images/aa27e0d625d7cc2eee7e173496c16fca.png" group-title="⭐️ CULTURA",TLC FHD
+#EXTINF:-1 tvg-id="TLC.ar" tvg-name="TLC FHD" tvg-logo="http://redworld.pro:8880/images/aa27e0d625d7cc2eee7e173496c16fca.png" group-title="⭐️ CULTURA",TLC FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318629
-#EXTINF:-1 tvg-id="" tvg-name="TLC HD" tvg-logo="http://redworld.pro:8880/images/aa27e0d625d7cc2eee7e173496c16fca.png" group-title="⭐️ CULTURA",TLC HD
+#EXTINF:-1 tvg-id="TLC.ar" tvg-name="TLC HD" tvg-logo="http://redworld.pro:8880/images/aa27e0d625d7cc2eee7e173496c16fca.png" group-title="⭐️ CULTURA",TLC HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318630
-#EXTINF:-1 tvg-id="" tvg-name="HGTV FHD" tvg-logo="http://redworld.pro:8880/images/8361b0aa15c201aba7d73d0b6193b6c7.png" group-title="⭐️ CULTURA",HGTV FHD
+#EXTINF:-1 tvg-id="HGTV.ar" tvg-name="HGTV FHD" tvg-logo="http://redworld.pro:8880/images/8361b0aa15c201aba7d73d0b6193b6c7.png" group-title="⭐️ CULTURA",HGTV FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318631
-#EXTINF:-1 tvg-id="" tvg-name="LIFETIME HD" tvg-logo="http://redworld.pro:8880/images/4e6a938c29df214ad11bef9ee275cd76.png" group-title="⭐️ CULTURA",LIFETIME HD
+#EXTINF:-1 tvg-id="LIFETIME HD.ar" tvg-name="LIFETIME HD" tvg-logo="http://redworld.pro:8880/images/4e6a938c29df214ad11bef9ee275cd76.png" group-title="⭐️ CULTURA",LIFETIME HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/318632
 #EXTINF:-1 tvg-id="" tvg-name="KIDS | BABY FIRST" tvg-logo="http://redworld.pro:8880/images/3b3a23dcc02f40038cfc34d8c58c313f.png" group-title="⭐️ Infantiles",KIDS | BABY FIRST
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/321968
 #EXTINF:-1 tvg-id="" tvg-name="KIDS | BABY TV" tvg-logo="http://redworld.pro:8880/images/637e562dbf5fd427957eb42dcd838054.png" group-title="⭐️ Infantiles",KIDS | BABY TV
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/321969
-#EXTINF:-1 tvg-id="" tvg-name="KIDS | CARTOON NETWORK | OPC2" tvg-logo="http://redworld.pro:8880/images/c67ab172eb643fea7070b0a3514f4459.png" group-title="⭐️ Infantiles",KIDS | CARTOON NETWORK | OPC2
+#EXTINF:-1 tvg-id="CARTOON NETWORK.ar" tvg-name="KIDS | CARTOON NETWORK | OPC2" tvg-logo="http://redworld.pro:8880/images/c67ab172eb643fea7070b0a3514f4459.png" group-title="⭐️ Infantiles",KIDS | CARTOON NETWORK | OPC2
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/321973
-#EXTINF:-1 tvg-id="" tvg-name="KIDS | CARTOON NETWORK" tvg-logo="http://redworld.pro:8880/images/c67ab172eb643fea7070b0a3514f4459.png" group-title="⭐️ Infantiles",KIDS | CARTOON NETWORK
+#EXTINF:-1 tvg-id="CARTOON NETWORK.ar" tvg-name="KIDS | CARTOON NETWORK" tvg-logo="http://redworld.pro:8880/images/c67ab172eb643fea7070b0a3514f4459.png" group-title="⭐️ Infantiles",KIDS | CARTOON NETWORK
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/321974
-#EXTINF:-1 tvg-id="" tvg-name="KIDS | CARTOONITO" tvg-logo="http://redworld.pro:8880/images/be37514186ea0e9928444db722509319.png" group-title="⭐️ Infantiles",KIDS | CARTOONITO
+#EXTINF:-1 tvg-id="CARTOONITO.ar" tvg-name="KIDS | CARTOONITO" tvg-logo="http://redworld.pro:8880/images/be37514186ea0e9928444db722509319.png" group-title="⭐️ Infantiles",KIDS | CARTOONITO
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/321975
-#EXTINF:-1 tvg-id="" tvg-name="KIDS | DISCOVERY KIDS" tvg-logo="http://redworld.pro:8880/images/9616dc155d8f864cd00ba06266376b5e.png" group-title="⭐️ Infantiles",KIDS | DISCOVERY KIDS
+#EXTINF:-1 tvg-id="DISCOVERY KIDS.ar" tvg-name="KIDS | DISCOVERY KIDS" tvg-logo="http://redworld.pro:8880/images/9616dc155d8f864cd00ba06266376b5e.png" group-title="⭐️ Infantiles",KIDS | DISCOVERY KIDS
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/321976
-#EXTINF:-1 tvg-id="" tvg-name="KIDS | DISNEY CHANNEL" tvg-logo="http://redworld.pro:8880/images/0b2fee0f1f24fda95232e562d8326026.png" group-title="⭐️ Infantiles",KIDS | DISNEY CHANNEL
+#EXTINF:-1 tvg-id="DISNEY.ar" tvg-name="KIDS | DISNEY CHANNEL" tvg-logo="http://redworld.pro:8880/images/0b2fee0f1f24fda95232e562d8326026.png" group-title="⭐️ Infantiles",KIDS | DISNEY CHANNEL
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/321978
-#EXTINF:-1 tvg-id="" tvg-name="KIDS | DISNEY JUNIOR" tvg-logo="http://redworld.pro:8880/images/69ee308370f166ebd34ee64895d1c9a8.png" group-title="⭐️ Infantiles",KIDS | DISNEY JUNIOR
+#EXTINF:-1 tvg-id="DISNEY.ar" tvg-name="KIDS | DISNEY JUNIOR" tvg-logo="http://redworld.pro:8880/images/69ee308370f166ebd34ee64895d1c9a8.png" group-title="⭐️ Infantiles",KIDS | DISNEY JUNIOR
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/321981
 #EXTINF:-1 tvg-id="" tvg-name="KIDS | NICK" tvg-logo="http://redworld.pro:8880/images/3b20a55bd85dcd304da6ac81000a30c7.png" group-title="⭐️ Infantiles",KIDS | NICK
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/321982
-#EXTINF:-1 tvg-id="" tvg-name="KIDS | NICKELODEON" tvg-logo="http://redworld.pro:8880/images/5a9d428b61a7941c724e7c16747e0390.png" group-title="⭐️ Infantiles",KIDS | NICKELODEON
+#EXTINF:-1 tvg-id="NICKELODEON.ar" tvg-name="KIDS | NICKELODEON" tvg-logo="http://redworld.pro:8880/images/5a9d428b61a7941c724e7c16747e0390.png" group-title="⭐️ Infantiles",KIDS | NICKELODEON
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/321984
 #EXTINF:-1 tvg-id="" tvg-name="KIDS | NICKTOONS" tvg-logo="http://redworld.pro:8880/images/2c60790cd9470a61cf2e3c265f9589de.png" group-title="⭐️ Infantiles",KIDS | NICKTOONS
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/321985
@@ -533,7 +533,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/327915
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/327916
 #EXTINF:-1 tvg-id="" tvg-name="AR | [$ŠPN) PREMIUM" tvg-logo="http://redworld.pro:8880/images/669465c0bb8b14bd996ebeb2e1b3d0da.png" group-title="⭐️ Deporte Argentina",AR | [$ŠPN) PREMIUM
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/327917
-#EXTINF:-1 tvg-id="" tvg-name="AR | TYC SPORTS" tvg-logo="http://redworld.pro:8880/images/c5509c4b9b2f0749da4aed3a5ae3d7c3.png" group-title="⭐️ Deporte Argentina",AR | TYC SPORTS
+#EXTINF:-1 tvg-id="TYC SPORTS.ar" tvg-name="AR | TYC SPORTS" tvg-logo="http://redworld.pro:8880/images/c5509c4b9b2f0749da4aed3a5ae3d7c3.png" group-title="⭐️ Deporte Argentina",AR | TYC SPORTS
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/327918
 #EXTINF:-1 tvg-id="" tvg-name="AR | FUT SPORTS" tvg-logo="http://redworld.pro:8880/images/2fcdc22ef23e33323bae9ea84c53d7c7.png" group-title="⭐️ Deporte Argentina",AR | FUT SPORTS
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/327919
@@ -573,13 +573,13 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/354322
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/354323
 #EXTINF:-1 tvg-id="" tvg-name="Canal 36 FHD (Costa Rica)" tvg-logo="" group-title="⭐️ Canales "Conexiones Lentas"",Canal 36 FHD (Costa Rica)
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/354333
-#EXTINF:-1 tvg-id="" tvg-name="Telesur HD (Costa Rica)" tvg-logo="" group-title="⭐️ Canales "Conexiones Lentas"",Telesur HD (Costa Rica)
+#EXTINF:-1 tvg-id="TELESUR.ar" tvg-name="Telesur HD (Costa Rica)" tvg-logo="" group-title="⭐️ Canales "Conexiones Lentas"",Telesur HD (Costa Rica)
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/354334
 #EXTINF:-1 tvg-id="" tvg-name="ABC HD (Paraguay)" tvg-logo="" group-title="⭐️ Canales "Conexiones Lentas"",ABC HD (Paraguay)
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/354337
 #EXTINF:-1 tvg-id="" tvg-name="Canal Gen Tv  - C.A B.A" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Gen Tv  - C.A B.A
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359917
-#EXTINF:-1 tvg-id="" tvg-name="Canal Atv - C.A.B.A" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Atv - C.A.B.A
+#EXTINF:-1 tvg-id="CANAL A.ar" tvg-name="Canal Atv - C.A.B.A" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Atv - C.A.B.A
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359918
 #EXTINF:-1 tvg-id="NETTV.ar" tvg-name="Canal Net Tv - C.A.B.A" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Net Tv - C.A.B.A
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359919
@@ -609,7 +609,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359934
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359935
 #EXTINF:-1 tvg-id="" tvg-name="Canal Chaco Tv - Chaco" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Chaco Tv - Chaco
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359936
-#EXTINF:-1 tvg-id="" tvg-name="Canal Azm Tv - Chubut" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Azm Tv - Chubut
+#EXTINF:-1 tvg-id="CANAL A.ar" tvg-name="Canal Azm Tv - Chubut" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Azm Tv - Chubut
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359938
 #EXTINF:-1 tvg-id="" tvg-name="Canal 10 Cordoba - Cordoba" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 10 Cordoba - Cordoba
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359940
@@ -627,7 +627,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359945
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359946
 #EXTINF:-1 tvg-id="" tvg-name="Canal CorrientesTV - Corrientes" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal CorrientesTV - Corrientes
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/360492
-#EXTINF:-1 tvg-id="" tvg-name="Canal ACV HD - Corrientes" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal ACV HD - Corrientes
+#EXTINF:-1 tvg-id="CANAL A.ar" tvg-name="Canal ACV HD - Corrientes" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal ACV HD - Corrientes
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/360493
 #EXTINF:-1 tvg-id="" tvg-name="Canal 9 Litoral - Entre Rios" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 9 Litoral - Entre Rios
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/360495
@@ -685,7 +685,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/383998
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/384000
 #EXTINF:-1 tvg-id="" tvg-name="SOLIDARIA TV ARGENTINA" tvg-logo="http://goldfull.pro:8880/images/82c7e33110551d4e86001d8e2dc58abd.jpg" group-title="⭐️ Tv Religiosos",SOLIDARIA TV ARGENTINA
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/384001
-#EXTINF:-1 tvg-id="" tvg-name="EWTN" tvg-logo="https://www.ewtn.com/assets/ewtn-badge-58f0dd80b4f161197d2d55f4af30ac2a7d29fcd9677c9f84afd61b53890fffe7.jpg" group-title="⭐️ Tv Religiosos",EWTN
+#EXTINF:-1 tvg-id="EWTN.ar" tvg-name="EWTN" tvg-logo="https://www.ewtn.com/assets/ewtn-badge-58f0dd80b4f161197d2d55f4af30ac2a7d29fcd9677c9f84afd61b53890fffe7.jpg" group-title="⭐️ Tv Religiosos",EWTN
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/384002
 #EXTINF:-1 tvg-id="" tvg-name="SUBLIME GRACIA TV FORMOSA" tvg-logo="http://www.radiosublimegraciatv.com.ar/img/logo.png" group-title="⭐️ Tv Religiosos",SUBLIME GRACIA TV FORMOSA
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/384003
@@ -715,75 +715,75 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/410185
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/410186
 #EXTINF:-1 tvg-id="" tvg-name="Canal Televida (Argentina)" tvg-logo="" group-title="⭐️ Canales "Conexiones Lentas"",Canal Televida (Argentina)
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/410187
-#EXTINF:-1 tvg-id="" tvg-name="CINE  | A&E FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjV-u5jw-GdHMR9tjbDC9wxDWINx3jLXRUQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | A&E FHD
+#EXTINF:-1 tvg-id="A&E.ar" tvg-name="CINE  | A&E FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjV-u5jw-GdHMR9tjbDC9wxDWINx3jLXRUQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | A&E FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414453
-#EXTINF:-1 tvg-id="" tvg-name="CINE  | A&E HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjV-u5jw-GdHMR9tjbDC9wxDWINx3jLXRUQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | A&E HD
+#EXTINF:-1 tvg-id="A&E HD.ar" tvg-name="CINE  | A&E HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjV-u5jw-GdHMR9tjbDC9wxDWINx3jLXRUQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | A&E HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414454
-#EXTINF:-1 tvg-id="" tvg-name="CINE  | A&E SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjV-u5jw-GdHMR9tjbDC9wxDWINx3jLXRUQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | A&E SD
+#EXTINF:-1 tvg-id="A&E.ar" tvg-name="CINE  | A&E SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjV-u5jw-GdHMR9tjbDC9wxDWINx3jLXRUQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | A&E SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414455
 #EXTINF:-1 tvg-id="" tvg-name="CINE  | *C1NEMAX* HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkxewXQeeMqr4uYRrmID1JE2WWx2qoDvNddQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | *C1NEMAX* HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414457
 #EXTINF:-1 tvg-id="" tvg-name="CINE  | *C1NEMAX* SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkxewXQeeMqr4uYRrmID1JE2WWx2qoDvNddQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | *C1NEMAX* SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414458
-#EXTINF:-1 tvg-id="" tvg-name="CINE | STAR CHANNEL  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUSC9j9pUIeP68TVeZFtU_BOi3beYtu0zAw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | STAR CHANNEL  HD
+#EXTINF:-1 tvg-id="STAR CHANNEL HD.ar" tvg-name="CINE | STAR CHANNEL  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUSC9j9pUIeP68TVeZFtU_BOi3beYtu0zAw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | STAR CHANNEL  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414459
-#EXTINF:-1 tvg-id="" tvg-name="CINE | STAR CHANNEL  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUSC9j9pUIeP68TVeZFtU_BOi3beYtu0zAw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | STAR CHANNEL  SD
+#EXTINF:-1 tvg-id="STAR CHANNEL.ar" tvg-name="CINE | STAR CHANNEL  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUSC9j9pUIeP68TVeZFtU_BOi3beYtu0zAw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | STAR CHANNEL  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414460
 #EXTINF:-1 tvg-id="" tvg-name="CINE  | *HBÖ* 2 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8lZ0U7y83aMg8VcxHcLWyr8k4eK-vVK_TPw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | *HBÖ* 2 HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414462
 #EXTINF:-1 tvg-id="" tvg-name="CINE | *HBÖ* 2 SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8lZ0U7y83aMg8VcxHcLWyr8k4eK-vVK_TPw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | *HBÖ* 2 SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414463
-#EXTINF:-1 tvg-id="" tvg-name="CINE | STAR CHANNEL  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUSC9j9pUIeP68TVeZFtU_BOi3beYtu0zAw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | STAR CHANNEL  FHD
+#EXTINF:-1 tvg-id="STAR CHANNEL.ar" tvg-name="CINE | STAR CHANNEL  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUSC9j9pUIeP68TVeZFtU_BOi3beYtu0zAw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | STAR CHANNEL  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414464
-#EXTINF:-1 tvg-id="" tvg-name="CINE | *HBO* F@MILY  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA4WC_DVLdy7I-kMJhcpStbdiBOe00hos0AA&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | *HBO* F@MILY  HD
+#EXTINF:-1 tvg-id="HBO.ar" tvg-name="CINE | *HBO* F@MILY  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA4WC_DVLdy7I-kMJhcpStbdiBOe00hos0AA&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | *HBO* F@MILY  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414465
-#EXTINF:-1 tvg-id="" tvg-name="CINE | *HBO* F@MILY  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA4WC_DVLdy7I-kMJhcpStbdiBOe00hos0AA&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | *HBO* F@MILY  SD
+#EXTINF:-1 tvg-id="HBO.ar" tvg-name="CINE | *HBO* F@MILY  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA4WC_DVLdy7I-kMJhcpStbdiBOe00hos0AA&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | *HBO* F@MILY  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414466
-#EXTINF:-1 tvg-id="" tvg-name="CINE | *HBO* HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUtbjnKsynnCmmwzyL97_V5eVimvq_l9nScg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | *HBO* HD
+#EXTINF:-1 tvg-id="HBO HD.ar" tvg-name="CINE | *HBO* HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUtbjnKsynnCmmwzyL97_V5eVimvq_l9nScg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | *HBO* HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414468
-#EXTINF:-1 tvg-id="" tvg-name="CINE  | *HBO* SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUtbjnKsynnCmmwzyL97_V5eVimvq_l9nScg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | *HBO* SD
+#EXTINF:-1 tvg-id="HBO.ar" tvg-name="CINE  | *HBO* SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUtbjnKsynnCmmwzyL97_V5eVimvq_l9nScg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | *HBO* SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414469
-#EXTINF:-1 tvg-id="" tvg-name="CINE  | *HBO* POP  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUrjaVQ_67o7XMUHTLunr3MrCREj8_Mfn_-g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | *HBO* POP  HD
+#EXTINF:-1 tvg-id="HBO POP HD.ar" tvg-name="CINE  | *HBO* POP  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUrjaVQ_67o7XMUHTLunr3MrCREj8_Mfn_-g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | *HBO* POP  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414471
-#EXTINF:-1 tvg-id="" tvg-name="CINE  | *HBO* POP SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUrjaVQ_67o7XMUHTLunr3MrCREj8_Mfn_-g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | *HBO* POP SD
+#EXTINF:-1 tvg-id="HBO.ar" tvg-name="CINE  | *HBO* POP SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUrjaVQ_67o7XMUHTLunr3MrCREj8_Mfn_-g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | *HBO* POP SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414472
-#EXTINF:-1 tvg-id="" tvg-name="CINE  | TNT  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREx6xag_8jHvToBLGBqlHfK3Y6oMAi5cqnLw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | TNT  FHD
+#EXTINF:-1 tvg-id="TNT.ar" tvg-name="CINE  | TNT  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREx6xag_8jHvToBLGBqlHfK3Y6oMAi5cqnLw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | TNT  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414473
-#EXTINF:-1 tvg-id="" tvg-name="CINE  | TNT  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREx6xag_8jHvToBLGBqlHfK3Y6oMAi5cqnLw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | TNT  HD
+#EXTINF:-1 tvg-id="TNT HD.ar" tvg-name="CINE  | TNT  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREx6xag_8jHvToBLGBqlHfK3Y6oMAi5cqnLw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | TNT  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414474
-#EXTINF:-1 tvg-id="" tvg-name="CINE  | TNT  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREx6xag_8jHvToBLGBqlHfK3Y6oMAi5cqnLw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | TNT  SD
+#EXTINF:-1 tvg-id="TNT.ar" tvg-name="CINE  | TNT  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREx6xag_8jHvToBLGBqlHfK3Y6oMAi5cqnLw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | TNT  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414475
-#EXTINF:-1 tvg-id="" tvg-name="CINE  | TNT SERIES  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS412_DLemKjbNR286Bqh-5--md7yWlo7F9sw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | TNT SERIES  FHD
+#EXTINF:-1 tvg-id="TNT SERIES.ar" tvg-name="CINE  | TNT SERIES  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS412_DLemKjbNR286Bqh-5--md7yWlo7F9sw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | TNT SERIES  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414476
-#EXTINF:-1 tvg-id="" tvg-name="CINE | TNT SERIES  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS412_DLemKjbNR286Bqh-5--md7yWlo7F9sw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | TNT SERIES  HD
+#EXTINF:-1 tvg-id="TNT SERIES HD.ar" tvg-name="CINE | TNT SERIES  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS412_DLemKjbNR286Bqh-5--md7yWlo7F9sw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | TNT SERIES  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414477
-#EXTINF:-1 tvg-id="" tvg-name="CINE |  TNT SERIES  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS412_DLemKjbNR286Bqh-5--md7yWlo7F9sw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE |  TNT SERIES  SD
+#EXTINF:-1 tvg-id="TNT SERIES.ar" tvg-name="CINE |  TNT SERIES  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS412_DLemKjbNR286Bqh-5--md7yWlo7F9sw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE |  TNT SERIES  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414478
-#EXTINF:-1 tvg-id="" tvg-name="CINE | CINECANAL  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfY_V6-B2g_kEqycv8FnYBzZZca7242M3uLw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | CINECANAL  FHD
+#EXTINF:-1 tvg-id="CINECANAL.ar" tvg-name="CINE | CINECANAL  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfY_V6-B2g_kEqycv8FnYBzZZca7242M3uLw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | CINECANAL  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414479
-#EXTINF:-1 tvg-id="" tvg-name="CINE | CINECANAL  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfY_V6-B2g_kEqycv8FnYBzZZca7242M3uLw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | CINECANAL  HD
+#EXTINF:-1 tvg-id="CINECANAL HD.ar" tvg-name="CINE | CINECANAL  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfY_V6-B2g_kEqycv8FnYBzZZca7242M3uLw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | CINECANAL  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414480
-#EXTINF:-1 tvg-id="" tvg-name="CINE | CINECANAL  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfY_V6-B2g_kEqycv8FnYBzZZca7242M3uLw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | CINECANAL  SD
+#EXTINF:-1 tvg-id="CINECANAL.ar" tvg-name="CINE | CINECANAL  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfY_V6-B2g_kEqycv8FnYBzZZca7242M3uLw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | CINECANAL  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414481
-#EXTINF:-1 tvg-id="" tvg-name="CINE | AXN  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFDesPfe1ZHPS8Manr4Gh-S3dP6FhllqYVjg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | AXN  HD
+#EXTINF:-1 tvg-id="AXN HD.ar" tvg-name="CINE | AXN  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFDesPfe1ZHPS8Manr4Gh-S3dP6FhllqYVjg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | AXN  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414483
-#EXTINF:-1 tvg-id="" tvg-name="CINE | AXN  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFDesPfe1ZHPS8Manr4Gh-S3dP6FhllqYVjg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | AXN  SD
+#EXTINF:-1 tvg-id="AXN.ar" tvg-name="CINE | AXN  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFDesPfe1ZHPS8Manr4Gh-S3dP6FhllqYVjg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | AXN  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414484
 #EXTINF:-1 tvg-id="" tvg-name="CINE | WARNER  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHNIfv7VLUeS2w8eoF4b-k5psDxmpHYqkxew&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | WARNER  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414485
 #EXTINF:-1 tvg-id="" tvg-name="CINE | WARNER  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHNIfv7VLUeS2w8eoF4b-k5psDxmpHYqkxew&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | WARNER  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414486
-#EXTINF:-1 tvg-id="" tvg-name="CINE | SONY  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUM5s02mVJaBsX8VO8xATB9ivrYta859D9g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SONY  FHD
+#EXTINF:-1 tvg-id="SONY.ar" tvg-name="CINE | SONY  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUM5s02mVJaBsX8VO8xATB9ivrYta859D9g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SONY  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414488
-#EXTINF:-1 tvg-id="" tvg-name="CINE | SONY  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUM5s02mVJaBsX8VO8xATB9ivrYta859D9g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SONY  HD
+#EXTINF:-1 tvg-id="SONY HD.ar" tvg-name="CINE | SONY  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUM5s02mVJaBsX8VO8xATB9ivrYta859D9g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SONY  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414489
-#EXTINF:-1 tvg-id="" tvg-name="CINE | SONY  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUM5s02mVJaBsX8VO8xATB9ivrYta859D9g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SONY  SD
+#EXTINF:-1 tvg-id="SONY.ar" tvg-name="CINE | SONY  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUM5s02mVJaBsX8VO8xATB9ivrYta859D9g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SONY  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414490
-#EXTINF:-1 tvg-id="" tvg-name="CINE | TCM  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5C2mxnbZhloXPJ9g7G5nwhyJmJNq06VlqpQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | TCM  FHD
+#EXTINF:-1 tvg-id="TCM.ar" tvg-name="CINE | TCM  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5C2mxnbZhloXPJ9g7G5nwhyJmJNq06VlqpQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | TCM  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414491
-#EXTINF:-1 tvg-id="" tvg-name="CINE | TCM  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5C2mxnbZhloXPJ9g7G5nwhyJmJNq06VlqpQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | TCM  HD
+#EXTINF:-1 tvg-id="TCM.ar" tvg-name="CINE | TCM  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5C2mxnbZhloXPJ9g7G5nwhyJmJNq06VlqpQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | TCM  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414492
-#EXTINF:-1 tvg-id="" tvg-name="CINE |  TCM  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5C2mxnbZhloXPJ9g7G5nwhyJmJNq06VlqpQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE |  TCM  SD
+#EXTINF:-1 tvg-id="TCM.ar" tvg-name="CINE |  TCM  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5C2mxnbZhloXPJ9g7G5nwhyJmJNq06VlqpQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE |  TCM  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414493
 #EXTINF:-1 tvg-id="" tvg-name="CINE | UNIVERSAL CHANEL  FHD" tvg-logo="http://127.0.0.1/" group-title="⭐️ CINE PREMIUM",CINE | UNIVERSAL CHANEL  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414494
@@ -791,35 +791,35 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414494
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414495
 #EXTINF:-1 tvg-id="" tvg-name="CINE | UNIVERSAL CHANEL  SD" tvg-logo="http://127.0.0.1/" group-title="⭐️ CINE PREMIUM",CINE | UNIVERSAL CHANEL  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414496
-#EXTINF:-1 tvg-id="" tvg-name="CINE | FX  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJq1YUknstlcWYR_a39Pbh-VKNQP_noF_rDg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | FX  FHD
+#EXTINF:-1 tvg-id="FX.ar" tvg-name="CINE | FX  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJq1YUknstlcWYR_a39Pbh-VKNQP_noF_rDg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | FX  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414497
-#EXTINF:-1 tvg-id="" tvg-name="CINE | FX  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJq1YUknstlcWYR_a39Pbh-VKNQP_noF_rDg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | FX  HD
+#EXTINF:-1 tvg-id="FX.ar" tvg-name="CINE | FX  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJq1YUknstlcWYR_a39Pbh-VKNQP_noF_rDg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | FX  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414498
-#EXTINF:-1 tvg-id="" tvg-name="CINE | FX  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJq1YUknstlcWYR_a39Pbh-VKNQP_noF_rDg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | FX  SD
+#EXTINF:-1 tvg-id="FX.ar" tvg-name="CINE | FX  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJq1YUknstlcWYR_a39Pbh-VKNQP_noF_rDg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | FX  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414499
-#EXTINF:-1 tvg-id="" tvg-name="CINE | SPACE CHANEL  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPteTsp2zPkNGIK2aC8M1_bKG7FUZBaFHrg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SPACE CHANEL  FHD
+#EXTINF:-1 tvg-id="SPACE.ar" tvg-name="CINE | SPACE CHANEL  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPteTsp2zPkNGIK2aC8M1_bKG7FUZBaFHrg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SPACE CHANEL  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414500
-#EXTINF:-1 tvg-id="" tvg-name="CINE | SPACE CHANEL  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPteTsp2zPkNGIK2aC8M1_bKG7FUZBaFHrg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SPACE CHANEL  HD
+#EXTINF:-1 tvg-id="SPACE.ar" tvg-name="CINE | SPACE CHANEL  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPteTsp2zPkNGIK2aC8M1_bKG7FUZBaFHrg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SPACE CHANEL  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414501
-#EXTINF:-1 tvg-id="" tvg-name="CINE | SPACE CHANEL  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPteTsp2zPkNGIK2aC8M1_bKG7FUZBaFHrg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SPACE CHANEL  SD
+#EXTINF:-1 tvg-id="SPACE.ar" tvg-name="CINE | SPACE CHANEL  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPteTsp2zPkNGIK2aC8M1_bKG7FUZBaFHrg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SPACE CHANEL  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414502
-#EXTINF:-1 tvg-id="" tvg-name="CINE | AMC  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRPXbkxZVQKnNqZ0tcPBhMhdHUgLcP3Kw0fw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | AMC  FHD
+#EXTINF:-1 tvg-id="AMC.ar" tvg-name="CINE | AMC  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRPXbkxZVQKnNqZ0tcPBhMhdHUgLcP3Kw0fw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | AMC  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414503
-#EXTINF:-1 tvg-id="" tvg-name="CINE | AMC HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRPXbkxZVQKnNqZ0tcPBhMhdHUgLcP3Kw0fw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | AMC HD
+#EXTINF:-1 tvg-id="AMC.ar" tvg-name="CINE | AMC HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRPXbkxZVQKnNqZ0tcPBhMhdHUgLcP3Kw0fw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | AMC HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414504
-#EXTINF:-1 tvg-id="" tvg-name="CINE | AMC  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRPXbkxZVQKnNqZ0tcPBhMhdHUgLcP3Kw0fw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | AMC  SD
+#EXTINF:-1 tvg-id="AMC.ar" tvg-name="CINE | AMC  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRPXbkxZVQKnNqZ0tcPBhMhdHUgLcP3Kw0fw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | AMC  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414505
-#EXTINF:-1 tvg-id="" tvg-name="CINE | GOLDEN  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxytfwU0t7hq8tWkwnq1tr0_J-NnCk_nV1Ow&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN  FHD
+#EXTINF:-1 tvg-id="GOLDEN.ar" tvg-name="CINE | GOLDEN  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxytfwU0t7hq8tWkwnq1tr0_J-NnCk_nV1Ow&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414506
-#EXTINF:-1 tvg-id="" tvg-name="CINE | GOLDEN  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxytfwU0t7hq8tWkwnq1tr0_J-NnCk_nV1Ow&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN  HD
+#EXTINF:-1 tvg-id="GOLDEN.ar" tvg-name="CINE | GOLDEN  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxytfwU0t7hq8tWkwnq1tr0_J-NnCk_nV1Ow&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414507
-#EXTINF:-1 tvg-id="" tvg-name="CINE | GOLDEN  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxytfwU0t7hq8tWkwnq1tr0_J-NnCk_nV1Ow&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN  SD
+#EXTINF:-1 tvg-id="GOLDEN.ar" tvg-name="CINE | GOLDEN  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxytfwU0t7hq8tWkwnq1tr0_J-NnCk_nV1Ow&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414508
-#EXTINF:-1 tvg-id="" tvg-name="CINE | GOLDEN EDG  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_MXCN8YTJUs_t4zTDTivh73cIHqA2A3Drw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN EDG  FHD
+#EXTINF:-1 tvg-id="GOLDEN.ar" tvg-name="CINE | GOLDEN EDG  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_MXCN8YTJUs_t4zTDTivh73cIHqA2A3Drw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN EDG  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414509
-#EXTINF:-1 tvg-id="" tvg-name="CINE | GOLDEN EDG  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_MXCN8YTJUs_t4zTDTivh73cIHqA2A3Drw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN EDG  HD
+#EXTINF:-1 tvg-id="GOLDEN.ar" tvg-name="CINE | GOLDEN EDG  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_MXCN8YTJUs_t4zTDTivh73cIHqA2A3Drw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN EDG  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414510
-#EXTINF:-1 tvg-id="" tvg-name="CINE | GOLDEN EDG  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_MXCN8YTJUs_t4zTDTivh73cIHqA2A3Drw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN EDG  SD
+#EXTINF:-1 tvg-id="GOLDEN.ar" tvg-name="CINE | GOLDEN EDG  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_MXCN8YTJUs_t4zTDTivh73cIHqA2A3Drw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN EDG  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414511
 #EXTINF:-1 tvg-id="" tvg-name="CINE | PARAMOUNT CHANEL FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoLcVhN7sW34YgTU8sCI6EtLwRAeGUp9-h_A&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | PARAMOUNT CHANEL FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414512
@@ -827,11 +827,11 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414512
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414513
 #EXTINF:-1 tvg-id="" tvg-name="CINE | PARAMOUNT CHANEL SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoLcVhN7sW34YgTU8sCI6EtLwRAeGUp9-h_A&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | PARAMOUNT CHANEL SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414514
-#EXTINF:-1 tvg-id="" tvg-name="CINE GOLDEN PLUS FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEUkFenrLxGFpEKOzzTEl2crLHBNePJehWFQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE GOLDEN PLUS FHD
+#EXTINF:-1 tvg-id="GOLDEN.ar" tvg-name="CINE GOLDEN PLUS FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEUkFenrLxGFpEKOzzTEl2crLHBNePJehWFQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE GOLDEN PLUS FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414515
-#EXTINF:-1 tvg-id="" tvg-name="CINE | GOLDEN PLUS HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEUkFenrLxGFpEKOzzTEl2crLHBNePJehWFQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN PLUS HD
+#EXTINF:-1 tvg-id="GOLDEN.ar" tvg-name="CINE | GOLDEN PLUS HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEUkFenrLxGFpEKOzzTEl2crLHBNePJehWFQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN PLUS HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414516
-#EXTINF:-1 tvg-id="" tvg-name="CINE | GOLDEN PLUS SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEUkFenrLxGFpEKOzzTEl2crLHBNePJehWFQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN PLUS SD
+#EXTINF:-1 tvg-id="GOLDEN.ar" tvg-name="CINE | GOLDEN PLUS SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEUkFenrLxGFpEKOzzTEl2crLHBNePJehWFQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN PLUS SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414517
 #EXTINF:-1 tvg-id="" tvg-name="CINE | CINE LATINO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYLWKA2w7UzyAaT3-EA29E7bvcPQ9SsvHoMQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | CINE LATINO
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414518
@@ -855,7 +855,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/418591
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/418592
 #EXTINF:-1 tvg-id="" tvg-name="DEPORTES | *ESP*N 7" tvg-logo="" group-title="⭐️ DƏPORTE VIP",DEPORTES | *ESP*N 7
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/418593
-#EXTINF:-1 tvg-id="" tvg-name="TBS | TNT NOVELAS HD" tvg-logo="" group-title="⭐️ Telenovelas",TBS | TNT NOVELAS HD
+#EXTINF:-1 tvg-id="TNT NOVELAS.ar" tvg-name="TBS | TNT NOVELAS HD" tvg-logo="" group-title="⭐️ Telenovelas",TBS | TNT NOVELAS HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/422647
 #EXTINF:-1 tvg-id="" tvg-name="DEPORTES | Ty€ 5PORT5" tvg-logo="http://redworld.pro:8880/images/c5509c4b9b2f0749da4aed3a5ae3d7c3.png" group-title="⭐️ DƏPORTE VIP",DEPORTES | Ty€ 5PORT5
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/443250
@@ -867,7 +867,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/447769
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/449493
 #EXTINF:-1 tvg-id="" tvg-name="RED BULL TV" tvg-logo="http://redworld.pro:8880/images/638254815f3d64d903e8c9fccaec4d1a.png" group-title="⭐️ DƏPORTE VIP",RED BULL TV
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/456701
-#EXTINF:-1 tvg-id="TodoNoticias.ar" tvg-name="TN NOTICIAS" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",TN NOTICIAS
+#EXTINF:-1 tvg-id="TN.ar" tvg-name="TN NOTICIAS" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",TN NOTICIAS
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490437
 #EXTINF:-1 tvg-id="Canal26.ar" tvg-name="ARG | CANAL 26 HD" tvg-logo="http://redworld.pro:8880/images/810cc28538dad9335756506f03410daa.jpg" group-title="⭐️ Argentina",ARG | CANAL 26 HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490438
@@ -893,13 +893,13 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490451
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490452
 #EXTINF:-1 tvg-id="CiudadMagazine.ar" tvg-name="CIUDAD MAGAZINE" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a8/Ciudadmagazine-logonuevo.png/revision/latest?cb=20210525001116&path-prefix=es" group-title="⭐️ Argentina",CIUDAD MAGAZINE
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490453
-#EXTINF:-1 tvg-id="TodoNoticias.ar" tvg-name="TN Noticias" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",TN Noticias
+#EXTINF:-1 tvg-id="TN.ar" tvg-name="TN Noticias" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",TN Noticias
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490454
 #EXTINF:-1 tvg-id="TVPublica.ar" tvg-name="ARG | TV Publica FHD" tvg-logo="http://redworld.pro:8880/images/e18523361e24e6508919b799b7e0a144.png" group-title="⭐️ Argentina",ARG | TV Publica FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490455
 #EXTINF:-1 tvg-id="TVPublica.ar" tvg-name="ARG | TV Publica" tvg-logo="http://redworld.pro:8880/images/e18523361e24e6508919b799b7e0a144.png" group-title="⭐️ Argentina",ARG | TV Publica
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490456
-#EXTINF:-1 tvg-id="TodoNoticias.ar" tvg-name="ARG | TN HD" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | TN HD
+#EXTINF:-1 tvg-id="TN.ar" tvg-name="ARG | TN HD" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | TN HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490457
 #EXTINF:-1 tvg-id="Telefe.ar" tvg-name="ARG | Telefe" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | Telefe
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490458
@@ -917,7 +917,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490463
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490464
 #EXTINF:-1 tvg-id="" tvg-name="ARG | VER TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKUuk2eK30VLGHUUSRMHqdFVSmqoA9tcaZ4UZINGGp_Q&s" group-title="⭐️ Argentina",ARG | VER TV
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490465
-#EXTINF:-1 tvg-id="LaNacionPlus.ar" tvg-name="AR | LA NACION" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kqtZB_6WG36RuIrX7Npa_XgoeV-KK74HcQ7m9xWQcKI7E=s900-c-k-c0x00ffffff-no-rj" group-title="⭐️ Argentina",AR | LA NACION
+#EXTINF:-1 tvg-id="LA NACION +.ar" tvg-name="AR | LA NACION" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kqtZB_6WG36RuIrX7Npa_XgoeV-KK74HcQ7m9xWQcKI7E=s900-c-k-c0x00ffffff-no-rj" group-title="⭐️ Argentina",AR | LA NACION
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490466
 #EXTINF:-1 tvg-id="A24.ar" tvg-name="CANAL A24" tvg-logo="http://redworld.pro:8880/images/b58b7fa78b3287771d8164b37a9ee036.png" group-title="⭐️ Argentina",CANAL A24
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490467
@@ -943,9 +943,9 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/514017
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/514018
 #EXTINF:-1 tvg-id="" tvg-name="DEPORTES | ÑBÆ" tvg-logo="http://redworld.pro:8880/images/cb9ba08fe282681f4ae34fdc866f0c41.png" group-title="⭐️ DƏPORTE VIP",DEPORTES | ÑBÆ
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/514112
-#EXTINF:-1 tvg-id="" tvg-name="MX | CANAL DE LAS ESTRELLAS OP2" tvg-logo="http://redworld.pro:8880/images/894a70f37f59ac14d4042b1dba66ea00.png" group-title="⭐️ México",MX | CANAL DE LAS ESTRELLAS OP2
+#EXTINF:-1 tvg-id="LAS ESTRELLAS.ar" tvg-name="MX | CANAL DE LAS ESTRELLAS OP2" tvg-logo="http://redworld.pro:8880/images/894a70f37f59ac14d4042b1dba66ea00.png" group-title="⭐️ México",MX | CANAL DE LAS ESTRELLAS OP2
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534766
-#EXTINF:-1 tvg-id="" tvg-name="MX | CANAL DE LAS ESTRELLAS OP3" tvg-logo="http://redworld.pro:8880/images/894a70f37f59ac14d4042b1dba66ea00.png" group-title="⭐️ México",MX | CANAL DE LAS ESTRELLAS OP3
+#EXTINF:-1 tvg-id="LAS ESTRELLAS.ar" tvg-name="MX | CANAL DE LAS ESTRELLAS OP3" tvg-logo="http://redworld.pro:8880/images/894a70f37f59ac14d4042b1dba66ea00.png" group-title="⭐️ México",MX | CANAL DE LAS ESTRELLAS OP3
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534767
 #EXTINF:-1 tvg-id="" tvg-name="MX | 01 • AZTECA UNO" tvg-logo="http://redworld.pro:8880/images/2487746efe0de2d02265bb9f5262e078.png" group-title="⭐️ México",MX | 01 • AZTECA UNO
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534768
@@ -997,7 +997,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534792
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534793
 #EXTINF:-1 tvg-id="" tvg-name="MX | MEXIQUENSE TV" tvg-logo="http://redworld.pro:8880/images/bf93b4d64ff458098826860e4b945fc1.png" group-title="⭐️ México",MX | MEXIQUENSE TV
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534794
-#EXTINF:-1 tvg-id="" tvg-name="MX | MAS CHIC" tvg-logo="http://redworld.pro:8880/images/ffa6d65bbbcdbda230c37ff5a49ca239.png" group-title="⭐️ México",MX | MAS CHIC
+#EXTINF:-1 tvg-id="MAS CHIC.ar" tvg-name="MX | MAS CHIC" tvg-logo="http://redworld.pro:8880/images/ffa6d65bbbcdbda230c37ff5a49ca239.png" group-title="⭐️ México",MX | MAS CHIC
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534795
 #EXTINF:-1 tvg-id="" tvg-name="MX | MILENIO HD" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ México",MX | MILENIO HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534796
@@ -1035,7 +1035,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534813
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534814
 #EXTINF:-1 tvg-id="" tvg-name="MEX II AZTECA INTERNACIONAL HD (PP)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs-Wfr_kRdeHrHpDDyPZ-O__nV2Vm57Wj6oqHovOzBlw&s" group-title="⭐️ México",MEX II AZTECA INTERNACIONAL HD (PP)
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534815
-#EXTINF:-1 tvg-id="" tvg-name="MX | UMTV | MX" tvg-logo="http://redworld.pro:8880/images/3ae6ba11d11a7b950d343f573b354b2a.png" group-title="⭐️ México",MX | UMTV | MX
+#EXTINF:-1 tvg-id="MTV.ar" tvg-name="MX | UMTV | MX" tvg-logo="http://redworld.pro:8880/images/3ae6ba11d11a7b950d343f573b354b2a.png" group-title="⭐️ México",MX | UMTV | MX
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534816
 #EXTINF:-1 tvg-id="" tvg-name="MX | Bandamax Hd®" tvg-logo="http://redworld.pro:8880/images/3ae6ba11d11a7b950d343f573b354b2a.png" group-title="⭐️ México",MX | Bandamax Hd®
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534817
@@ -1043,11 +1043,11 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534817
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534818
 #EXTINF:-1 tvg-id="" tvg-name="SYFY HD" tvg-logo="http://redworld.pro:8880/images/4819f8c63a16d13f9f52cbe5ea3be3b1.png" group-title="⭐️ México",SYFY HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534819
-#EXTINF:-1 tvg-id="" tvg-name="MX | E! ENTERTAINMENT HD" tvg-logo="http://redworld.pro:8880/images/13e13f8201410be8b597098322cbf3eb.png" group-title="⭐️ México",MX | E! ENTERTAINMENT HD
+#EXTINF:-1 tvg-id="ENTERTAINMENT.ar" tvg-name="MX | E! ENTERTAINMENT HD" tvg-logo="http://redworld.pro:8880/images/13e13f8201410be8b597098322cbf3eb.png" group-title="⭐️ México",MX | E! ENTERTAINMENT HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534820
-#EXTINF:-1 tvg-id="" tvg-name="MX |* DISCOVERY TLC FHD" tvg-logo="http://redworld.pro:8880/images/a08e51db65905e05929c38ec7af217f1.png" group-title="⭐️ México",MX |* DISCOVERY TLC FHD
+#EXTINF:-1 tvg-id="TLC.ar" tvg-name="MX |* DISCOVERY TLC FHD" tvg-logo="http://redworld.pro:8880/images/a08e51db65905e05929c38ec7af217f1.png" group-title="⭐️ México",MX |* DISCOVERY TLC FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534822
-#EXTINF:-1 tvg-id="" tvg-name="CINEMAX" tvg-logo="http://redworld.pro:8880/images/8d977b8d465c9db48d7ece30651d2605.png" group-title="⭐️ México",CINEMAX
+#EXTINF:-1 tvg-id="CINEMAX.ar" tvg-name="CINEMAX" tvg-logo="http://redworld.pro:8880/images/8d977b8d465c9db48d7ece30651d2605.png" group-title="⭐️ México",CINEMAX
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534823
 #EXTINF:-1 tvg-id="" tvg-name="Coral TV (480p)" tvg-logo="http://onerestream.us:80/images/YNKPF0uS6GOfopdjzrfmIHvBimC8Hdfh4mjE8mP6rmNugQKXWV8dPh_ICEZ4ZF5S.png" group-title="⭐️ México",Coral TV (480p)
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534825
@@ -1069,7 +1069,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534838
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534843
 #EXTINF:-1 tvg-id="" tvg-name="MILENIO" tvg-logo="http://127.0.0.1/" group-title="⭐️ México",MILENIO
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534844
-#EXTINF:-1 tvg-id="ElGourmet.ar" tvg-name="MX GOURMET" tvg-logo="http://127.0.0.1/" group-title="⭐️ México",MX GOURMET
+#EXTINF:-1 tvg-id="" tvg-name="MX GOURMET" tvg-logo="http://127.0.0.1/" group-title="⭐️ México",MX GOURMET
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534847
 #EXTINF:-1 tvg-id="" tvg-name="4 chicos y -Esto- \ (2020)" tvg-logo="http://redworld.pro:8880/images/742d6d65c738659e6a27f032dfe597ea.jpg" group-title="⭐️Infantiles",4 chicos y -Esto- \ (2020)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558028.mkv
@@ -1319,7 +1319,7 @@ http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558149.mkv
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558150.mkv
 #EXTINF:-1 tvg-id="" tvg-name="el perro cobarde \ (2021)" tvg-logo="http://redworld.pro:8880/images/02826a82a6205b1d56e289f52ec8a85c.jpg" group-title="⭐️Infantiles",el perro cobarde \ (2021)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558151.mkv
-#EXTINF:-1 tvg-id="" tvg-name="El Perro Samurai" tvg-logo="http://redworld.pro:8880/images/02826a82a6205b1d56e289f52ec8a85c.jpg" group-title="⭐️Infantiles",El Perro Samurai
+#EXTINF:-1 tvg-id="RAI.ar" tvg-name="El Perro Samurai" tvg-logo="http://redworld.pro:8880/images/02826a82a6205b1d56e289f52ec8a85c.jpg" group-title="⭐️Infantiles",El Perro Samurai
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558152.mkv
 #EXTINF:-1 tvg-id="" tvg-name="el polloliebre \ (2022)" tvg-logo="http://redworld.pro:8880/images/02826a82a6205b1d56e289f52ec8a85c.jpg" group-title="⭐️Infantiles",el polloliebre \ (2022)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558153.mkv
@@ -1567,7 +1567,7 @@ http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558273.mkv
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558274.mkv
 #EXTINF:-1 tvg-id="" tvg-name="LEGO DC Comics Super Heroes: The Flash (2018)" tvg-logo="http://redworld.pro:8880/images/5c1a056390d46f5a852efe6d1b136947.jpg" group-title="⭐️Infantiles",LEGO DC Comics Super Heroes: The Flash (2018)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558275.mkv
-#EXTINF:-1 tvg-id="" tvg-name="LEGO DC Comics Super Heroes- La liga de la justicia - La invasión de Brainiac \ (2016)" tvg-logo="http://redworld.pro:8880/images/5c1a056390d46f5a852efe6d1b136947.jpg" group-title="⭐️Infantiles",LEGO DC Comics Super Heroes- La liga de la justicia - La invasión de Brainiac \ (2016)
+#EXTINF:-1 tvg-id="RAI.ar" tvg-name="LEGO DC Comics Super Heroes- La liga de la justicia - La invasión de Brainiac \ (2016)" tvg-logo="http://redworld.pro:8880/images/5c1a056390d46f5a852efe6d1b136947.jpg" group-title="⭐️Infantiles",LEGO DC Comics Super Heroes- La liga de la justicia - La invasión de Brainiac \ (2016)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558276.mkv
 #EXTINF:-1 tvg-id="" tvg-name="LEGO DC Super Hero Girls: Escuela de super villanas (2018)" tvg-logo="http://redworld.pro:8880/images/c533b2325b691eb1cbf781b0f9339505.jpg" group-title="⭐️Infantiles",LEGO DC Super Hero Girls: Escuela de super villanas (2018)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558277.mkv
@@ -1761,7 +1761,7 @@ http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558370.mkv
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558371.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Pokémon: Hoopa y un duelo histórico (2015)" tvg-logo="http://redworld.pro:8880/images/500d4dbebad09a7fd58bfa3222842c0c.jpg" group-title="⭐️Infantiles",Pokémon: Hoopa y un duelo histórico (2015)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558372.mkv
-#EXTINF:-1 tvg-id="" tvg-name="Pokémon-  El desafío de Darkrai \ (2007)" tvg-logo="http://redworld.pro:8880/images/500d4dbebad09a7fd58bfa3222842c0c.jpg" group-title="⭐️Infantiles",Pokémon-  El desafío de Darkrai \ (2007)
+#EXTINF:-1 tvg-id="RAI.ar" tvg-name="Pokémon-  El desafío de Darkrai \ (2007)" tvg-logo="http://redworld.pro:8880/images/500d4dbebad09a7fd58bfa3222842c0c.jpg" group-title="⭐️Infantiles",Pokémon-  El desafío de Darkrai \ (2007)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558373.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Pokémon- Giratina y el defensor de los cielos \ (2008)" tvg-logo="http://redworld.pro:8880/images/500d4dbebad09a7fd58bfa3222842c0c.jpg" group-title="⭐️Infantiles",Pokémon- Giratina y el defensor de los cielos \ (2008)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558374.mkv
@@ -1839,7 +1839,7 @@ http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558409.mkv
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558410.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Somos osos- La película \ (2020)" tvg-logo="http://redworld.pro:8880/images/582cc72ee66b876da1fbb7d46bd54616.jpg" group-title="⭐️Infantiles",Somos osos- La película \ (2020)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558411.mkv
-#EXTINF:-1 tvg-id="" tvg-name="Space Jam- Nuevas Leyendas \ (2021)" tvg-logo="http://redworld.pro:8880/images/582cc72ee66b876da1fbb7d46bd54616.jpg" group-title="⭐️Infantiles",Space Jam- Nuevas Leyendas \ (2021)
+#EXTINF:-1 tvg-id="SPACE.ar" tvg-name="Space Jam- Nuevas Leyendas \ (2021)" tvg-logo="http://redworld.pro:8880/images/582cc72ee66b876da1fbb7d46bd54616.jpg" group-title="⭐️Infantiles",Space Jam- Nuevas Leyendas \ (2021)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558412.mkv
 #EXTINF:-1 tvg-id="" tvg-name="Spider-Man: Un nuevo universo (2018)" tvg-logo="http://redworld.pro:8880/images/701e85322ce8dd34a50cfdaabd64ce68.jpg" group-title="⭐️Infantiles",Spider-Man: Un nuevo universo (2018)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558413.mkv
@@ -1957,7 +1957,7 @@ http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558468.mkv
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558469.mkv
 #EXTINF:-1 tvg-id="" tvg-name="¡Scooby-Doo! Y la maldición del fantasma número 13 \ (2019)" tvg-logo="http://redworld.pro:8880/images/762dc133b69eff2f25fbe0ef1a3ab201.jpg" group-title="⭐️Infantiles",¡Scooby-Doo! Y la maldición del fantasma número 13 \ (2019)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558470.mkv
-#EXTINF:-1 tvg-id="ElGourmet.ar" tvg-name="Scooby-Doo! y el Fantasma Gourmet (2018)" tvg-logo="http://redworld.pro:8880/images/6cc35f6620f76ad6390bfaf404af0f43.jpg" group-title="⭐️Infantiles",Scooby-Doo! y el Fantasma Gourmet (2018)
+#EXTINF:-1 tvg-id="" tvg-name="Scooby-Doo! y el Fantasma Gourmet (2018)" tvg-logo="http://redworld.pro:8880/images/6cc35f6620f76ad6390bfaf404af0f43.jpg" group-title="⭐️Infantiles",Scooby-Doo! y el Fantasma Gourmet (2018)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558471.mkv
 #EXTINF:-1 tvg-id="" tvg-name="¡Truco o trato Scooby-Doo! \ (2022)" tvg-logo="http://redworld.pro:8880/images/6cc35f6620f76ad6390bfaf404af0f43.jpg" group-title="⭐️Infantiles",¡Truco o trato Scooby-Doo! \ (2022)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558472.mkv
@@ -1969,7 +1969,7 @@ http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/558474.mkv
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/560932
 #EXTINF:-1 tvg-id="" tvg-name="Balto: La leyenda del perro esquimal (1995)" tvg-logo="http://redworld.pro:8880/images/216537f2b39a01c219470c0870315588.jpg" group-title="⭐️Infantiles",Balto: La leyenda del perro esquimal (1995)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/561608.mp4
-#EXTINF:-1 tvg-id="" tvg-name="Balto 2: En busca de tus raíces (2002)" tvg-logo="http://redworld.pro:8880/images/23a5442648a794b39a2e9eece40bce86.jpg" group-title="⭐️Infantiles",Balto 2: En busca de tus raíces (2002)
+#EXTINF:-1 tvg-id="RAI.ar" tvg-name="Balto 2: En busca de tus raíces (2002)" tvg-logo="http://redworld.pro:8880/images/23a5442648a794b39a2e9eece40bce86.jpg" group-title="⭐️Infantiles",Balto 2: En busca de tus raíces (2002)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/561609.mp4
 #EXTINF:-1 tvg-id="" tvg-name="Balto 3: Aprendiendo a volar (2004)" tvg-logo="http://redworld.pro:8880/images/cfc76461d07e410c859006ed08a42e7a.jpg" group-title="⭐️Infantiles",Balto 3: Aprendiendo a volar (2004)
 http://redworld.pro:8880/movie/6AGTAWYQTSjW/mWWmtJ6RGXBB/561611.mp4
