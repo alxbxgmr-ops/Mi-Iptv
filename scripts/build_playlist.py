@@ -7,6 +7,8 @@ XTREAM_URL = os.environ["XTREAM_URL"]
 AR_URL = "https://iptv-org.github.io/iptv/countries/ar.m3u"
 OUTPUT_FILE = "lista.m3u"
 EPG_URL = "https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz"
+EPG_URL_2 = "https://iptv-org.github.io/epg/guides/tv/argentina.epg.xml"
+EPG_URL_3 = "https://www.open-epg.com/files/argentina4.xml"
 
 def strip_accents(s):
     table = str.maketrans("áéíóúüñə", "aeiouune")
@@ -34,7 +36,98 @@ KEEP_GROUPS = [normalize(g) for g in [
     "culture;family;general", "classic movies", "classic;movies",
 ]]
 
-# Canales con EPG confirmado en epgshare01 AR1: (patron a buscar en el nombre, tvg-id correcto)
+# Canales confirmados manualmente (prioridad alta, se revisan primero)
+EPG_MAP = [
+    (re.compile(r'\btelefe\b', re.IGNORECASE), "Telefe.ar"),
+    (re.compile(r'\bc5n\b', re.IGNORECASE), "C5N.ar"),
+    (re.compile(r'\ba24\b', re.IGNORECASE), "A24.ar"),
+    (re.compile(r'trece', re.IGNORECASE), "ElTrece.ar"),
+    (re.compile(r'\btn\b', re.IGNORECASE), "TN.ar"),
+    (re.compile(r't[vy]\s*p.blica', re.IGNORECASE), "TVPublica.ar"),
+    (re.compile(r'net\s*tv', re.IGNORECASE), "NETTV.ar"),
+    (re.compile(r'el\s*nueve', re.IGNORECASE), "ElNueve.ar"),
+    (re.compile(r'canal\s*26', re.IGNORECASE), "Canal26.ar"),
+    (re.compile(r'cronica', re.IGNORECASE), "CronicaTV.ar"),
+    (re.compile(r'la\s*nacion\s*\+?', re.IGNORECASE), "LA NACION +.ar"),
+    (re.compile(r'\bamerica\b', re.IGNORECASE), "AmericaTV.ar"),
+    (re.compile(r'\bvolver\b', re.IGNORECASE), "Volver.ar"),
+    (re.compile(r'gourmet\s*south', re.IGNORECASE), "EL GOURMET.ar"),
+    (re.compile(r'ciudad\s*magazine', re.IGNORECASE), "CiudadMagazine.ar"),
+]
+
+# Tabla generica de open-epg.com (fallback si nada de arriba matcheo)
+OPENEPG_CHANNELS = {
+    "26 TV": "26 TV.ar", "A&E HD": "A&E HD.ar", "A&E": "A&E.ar",
+    "ADRENALINA SPORTS HD": "ADRENALINA SPORTS HD.ar",
+    "ADULT SWIM HD": "ADULT SWIM HD.ar", "ADULT SWIM": "ADULT SWIM.ar",
+    "ALIENTOVISION": "ALIENTOVISION.ar", "ALLEGRO HD": "ALLEGRO HD.ar",
+    "AMC": "AMC.ar", "AMERICA 2": "AMERICA 2.ar", "AMERICA 24": "AMERICA 24.ar",
+    "AMERICA SPORTS": "AMERICA SPORTS.ar",
+    "ANIMAL PLANET HD": "ANIMAL PLANET HD.ar", "ANIMAL PLANET": "ANIMAL PLANET.ar",
+    "AREA PLUS": "AREA PLUS.ar", "ARGENTINISIMA": "ARGENTINISIMA.ar",
+    "AXN HD": "AXN HD.ar", "AXN": "AXN.ar", "BOLIVIA TV": "BOLIVIA TV.ar",
+    "CANAL 3 ROSARIO": "CANAL 3 ROSARIO.ar", "CANAL 4 SALTA": "CANAL 4 SALTA.ar",
+    "CANAL 4 SGO": "CANAL 4 SGO.ar", "CANAL 7 SGO": "CANAL 7 SGO.ar",
+    "CANAL A": "CANAL A.ar", "CANAL LUZ": "CANAL LUZ.ar",
+    "CANAL RURAL": "CANAL RURAL.ar", "CANAL VASCO": "CANAL VASCO.ar",
+    "CARTOON NETWORK HD": "CARTOON NETWORK HD.ar", "CARTOON NETWORK": "CARTOON NETWORK.ar",
+    "CARTOONITO": "CARTOONITO.ar",
+    "CINECANAL HD": "CINECANAL HD.ar", "CINECANAL": "CINECANAL.ar",
+    "CINEMAX HD": "CINEMAX HD.ar", "CINEMAX": "CINEMAX.ar",
+    "CM MUSICAL": "CM MUSICAL.ar", "CNN": "CNN.ar",
+    "DEPORTV HD": "DEPORTV HD.ar", "DEPORTV": "DEPORTV.ar", "DHE HD": "DHE HD.ar",
+    "DISCOVERY CHANNEL HD": "DISCOVERY CHANNEL HD.ar", "DISCOVERY CHANNEL": "DISCOVERY CHANNEL.ar",
+    "DISCOVERY HOME AND HEALTH HD": "DISCOVERY HOME AND HEALTH HD.ar",
+    "DISCOVERY HOME AND HEALTH": "DISCOVERY HOME AND HEALTH.ar",
+    "DISCOVERY ID HD": "DISCOVERY ID HD.ar", "DISCOVERY ID": "DISCOVERY ID.ar",
+    "DISCOVERY KIDS HD": "DISCOVERY KIDS HD.ar", "DISCOVERY KIDS": "DISCOVERY KIDS.ar",
+    "DISCOVERY SCIENCE": "DISCOVERY SCIENCE.ar",
+    "DISCOVERY THEATER HD": "DISCOVERY THEATER HD.ar",
+    "DISCOVERY TURBO HD": "DISCOVERY TURBO HD.ar",
+    "DISCOVERY WORLD HD": "DISCOVERY WORLD HD.ar",
+    "DISNEY HD": "DISNEY HD.ar", "DISNEY JR": "DISNEY JR.ar", "DISNEY": "DISNEY.ar",
+    "EL GARAGE HD": "EL GARAGE HD.ar", "EL GARAGE": "EL GARAGE.ar",
+    "EL GOURMET HD": "EL GOURMET HD.ar",
+    "ENCUENTRO": "ENCUENTRO.ar", "ENLACE TBN": "ENLACE TBN.ar",
+    "ENTERTAINMENT TELEVISION HD": "ENTERTAINMENT TELEVISION HD.ar",
+    "ENTERTAINMENT": "ENTERTAINMENT.ar",
+    "ESPN 2 HD": "ESPN 2 HD.ar", "ESPN 2": "ESPN 2.ar",
+    "ESPN 3 HD": "ESPN 3 HD.ar", "ESPN 3": "ESPN 3.ar",
+    "ESPN 4 HD": "ESPN 4 HD.ar", "ESPN 6 HD": "ESPN 6 HD.ar",
+    "ESPN HD": "ESPN HD.ar", "ESPN PREMIUM HD": "ESPN PREMIUM HD.ar",
+    "ESPN PREMIUM": "ESPN PREMIUM.ar", "ESPN": "ESPN.ar",
+    "EUROCHANNEL": "EUROCHANNEL.ar", "EUROPA EUROPA": "EUROPA EUROPA.ar",
+    "EWTN": "EWTN.ar", "EXPRESS FAN": "EXPRESS FAN.ar",
+    "FILM AND ARTS": "FILM AND ARTS.ar",
+    "FOX SPORTS 2 HD": "FOX SPORTS 2 HD.ar", "FOX SPORTS 2": "FOX SPORTS 2.ar",
+    "FOX SPORTS 3": "FOX SPORTS 3.ar", "FOX SPORTS HD": "FOX SPORTS HD.ar",
+    "FOX SPORTS": "FOX SPORTS.ar", "FX": "FX.ar",
+    "GALICIA TV": "GALICIA TV.ar", "GOLDEN": "GOLDEN.ar",
+    "H2 HD": "H2 HD.ar", "H2": "H2.ar",
+    "HBO 2 HD": "HBO 2 HD.ar", "HBO 2": "HBO 2.ar", "HBO FAMILY": "HBO FAMILY.ar",
+    "HBO HD": "HBO HD.ar", "HBO MUNDI": "HBO MUNDI.ar",
+    "HBO PLUS HD": "HBO PLUS HD.ar", "HBO PLUS": "HBO PLUS.ar",
+    "HBO POP HD": "HBO POP HD.ar", "HBO SIGNATURE": "HBO SIGNATURE.ar",
+    "HBO XTREME": "HBO XTREME.ar", "HBO": "HBO.ar",
+    "HGTV": "HGTV.ar", "HISTORY HD": "HISTORY HD.ar", "HISTORY": "HISTORY.ar",
+    "LAS ESTRELLAS": "LAS ESTRELLAS.ar",
+    "LIFETIME HD": "LIFETIME HD.ar", "LIFETIME": "LIFETIME.ar",
+    "LOVE NATURE HD": "LOVE NATURE HD.ar", "MAGAZINE": "MAGAZINE.ar",
+    "MAS CHIC": "MAS CHIC.ar", "MTV 80S": "MTV 80S.ar", "MTV HITS": "MTV HITS.ar",
+    "MTV00": "MTV00.ar", "MTV": "MTV.ar", "NAT GEO": "NAT GEO.ar",
+    "NICK JR": "NICK JR.ar", "NICKELODEON": "NICKELODEON.ar",
+    "NUEVO TIEMPO": "NUEVO TIEMPO.ar", "PAKAPAKA": "PAKAPAKA.ar",
+    "QUIERO": "QUIERO.ar", "RADIO NACIONAL": "RADIO NACIONAL.ar", "RAI": "RAI.ar",
+    "SBT BRASIL": "SBT BRASIL.ar", "SONY HD": "SONY HD.ar",
+    "SONY MOVIES": "SONY MOVIES.ar", "SONY": "SONY.ar",
+    "SPACE HD": "SPACE HD.ar", "SPACE": "SPACE.ar",
+    "STAR CHANNEL HD": "STAR CHANNEL HD.ar", "STAR CHANNEL": "STAR CHANNEL.ar",
+    "STUDIO UNIVERSAL HD": "STUDIO UNIVERSAL HD.ar", "STUDIO UNIVERSAL": "STUDIO UNIVERSAL.ar",
+    "TCM": "TCM.ar", "TEC TV": "TEC TV.ar", "TELE 10": "TELE 10.ar",
+    "TELEFE ROSARIO": "TELEFE ROSARIO.ar", "TELEFE SALTA": "TELEFE SALTA.ar",
+    "TELEMAX": "TELEMAX.ar", "TELEMUNDO HD": "TELEMUNDO HD.ar",
+    "TELEMUNDO": "TELEMUNDO.ar", "TELESUR": "TELESUR.ar", "TLC": "TLC.ar",
+    "TLNOVELAS": "TLNOVELAS.ar", "TNT HD": "TNT HD.ar",# Canales con EPG confirmado en epgshare01 AR1: (patron a buscar en el nombre, tvg-id correcto)
 EPG_MAP = [
     (re.compile(r'\btelefe\b', re.IGNORECASE), "Telefe.ar"),
     (re.compile(r'\bc5n\b', re.IGNORECASE), "C5N.ar"),
