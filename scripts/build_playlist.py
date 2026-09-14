@@ -127,24 +127,31 @@ OPENEPG_CHANNELS = {
     "TELEFE ROSARIO": "TELEFE ROSARIO.ar", "TELEFE SALTA": "TELEFE SALTA.ar",
     "TELEMAX": "TELEMAX.ar", "TELEMUNDO HD": "TELEMUNDO HD.ar",
     "TELEMUNDO": "TELEMUNDO.ar", "TELESUR": "TELESUR.ar", "TLC": "TLC.ar",
-    "TLNOVELAS": "TLNOVELAS.ar", "TNT HD": "TNT HD.ar",# Canales con EPG confirmado en epgshare01 AR1: (patron a buscar en el nombre, tvg-id correcto)
-EPG_MAP = [
-    (re.compile(r'\btelefe\b', re.IGNORECASE), "Telefe.ar"),
-    (re.compile(r'\bc5n\b', re.IGNORECASE), "C5N.ar"),
-    (re.compile(r'\ba24\b', re.IGNORECASE), "A24.ar"),
-    (re.compile(r'trece', re.IGNORECASE), "ElTrece.ar"),
-    (re.compile(r'\btn\b', re.IGNORECASE), "TodoNoticias.ar"),
-    (re.compile(r't[vy]\s*p.blica', re.IGNORECASE), "TVPublica.ar"),
-    (re.compile(r'net\s*tv', re.IGNORECASE), "NETTV.ar"),
-    (re.compile(r'el\s*nueve', re.IGNORECASE), "ElNueve.ar"),
-    (re.compile(r'canal\s*26', re.IGNORECASE), "Canal26.ar"),
-    (re.compile(r'cronica', re.IGNORECASE), "CronicaTV.ar"),
-    (re.compile(r'la\s*nacion\s*\+?', re.IGNORECASE), "LaNacionPlus.ar"),
-    (re.compile(r'\bamerica\b', re.IGNORECASE), "AmericaTV.ar"),
-    (re.compile(r'\bvolver\b', re.IGNORECASE), "Volver.ar"),
-    (re.compile(r'gourmet', re.IGNORECASE), "ElGourmet.ar"),
-    (re.compile(r'ciudad\s*magazine', re.IGNORECASE), "CiudadMagazine.ar"),
-]
+    "TLNOVELAS": "TLNOVELAS.ar", "TNT HD": "TNT HD.ar",
+    "TNT NOVELAS": "TNT NOVELAS.ar", "TNT SERIES HD": "TNT SERIES HD.ar",
+    "TNT SERIES": "TNT SERIES.ar", "TNT SPORTS HD": "TNT SPORTS HD.ar",
+    "TNT SPORTS": "TNT SPORTS.ar", "TNT": "TNT.ar", "TOONCAST": "TOONCAST.ar",
+    "TV 5": "TV 5.ar", "TV CHILE": "TV CHILE.ar", "TVE": "TVE.ar",
+    "TYC SPORTS 2": "TYC SPORTS 2.ar", "TYC SPORTS HD": "TYC SPORTS HD.ar",
+    "TYC SPORTS": "TYC SPORTS.ar",
+    "UNIVERSAL TV HD": "UNIVERSAL TV HD.ar", "UNIVERSAL TV": "UNIVERSAL TV.ar",
+    "WARNER CHANNEL HD": "WARNER CHANNEL HD.ar", "WARNER CHANNEL": "WARNER CHANNEL.ar",
+    "ZOOMOO HD": "ZOOMOO HD.ar",
+}
+OPENEPG_NAMES_SORTED = sorted(OPENEPG_CHANNELS.keys(), key=len, reverse=True)
+
+def normalize_loose(s):
+    s = strip_accents(s)
+    s = re.sub(r'[^A-Za-z0-9&+ ]', ' ', s)
+    s = re.sub(r'\s+', ' ', s).strip().upper()
+    return s
+
+def match_openepg(name):
+    norm_name = normalize_loose(name)
+    for candidate in OPENEPG_NAMES_SORTED:
+        if candidate in norm_name:
+            return OPENEPG_CHANNELS[candidate]
+    return None
 
 def get_group(extinf_line):
     m = re.search(r'group-title="([^"]*)"', extinf_line)
@@ -161,13 +168,18 @@ def is_adult(extinf_line):
 
 def apply_epg_id(line):
     name = line.rsplit(",", 1)[-1]
-    for pattern, tvg_id in EPG_MAP:
+    tvg_id = None
+    for pattern, candidate_id in EPG_MAP:
         if pattern.search(name):
-            if 'tvg-id="' in line:
-                return re.sub(r'tvg-id="[^"]*"', f'tvg-id="{tvg_id}"', line, count=1)
-            else:
-                return re.sub(r'^(#EXTINF:[-\d]+)', rf'\1 tvg-id="{tvg_id}"', line, count=1)
-    return line
+            tvg_id = candidate_id
+            break
+    if tvg_id is None:
+        tvg_id = match_openepg(name)
+    if tvg_id is None:
+        return line
+    if 'tvg-id="' in line:
+        return re.sub(r'tvg-id="[^"]*"', f'tvg-id="{tvg_id}"', line, count=1)
+    return re.sub(r'^(#EXTINF:[-\d]+)', rf'\1 tvg-id="{tvg_id}"', line, count=1)
 
 def keep_xtream_entry(extinf_line):
     if is_adult(extinf_line):
@@ -222,7 +234,7 @@ def main():
     xtream_content = fetch(XTREAM_URL)
     ar_content = fetch(AR_URL)
 
-    merged = [f'#EXTM3U x-tvg-url="{EPG_URL},https://iptv-org.github.io/epg/guides/tv/argentina.epg.xml"']
+    merged = [f'#EXTM3U x-tvg-url="{EPG_URL},{EPG_URL_2},{EPG_URL_3}"']
     merged.extend(parse(ar_content, keep_ar_entry))
     merged.extend(parse(xtream_content, keep_xtream_entry))
 
