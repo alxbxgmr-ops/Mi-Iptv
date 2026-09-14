@@ -6,6 +6,7 @@ import urllib.request
 XTREAM_URL = os.environ["XTREAM_URL"]
 AR_URL = "https://iptv-org.github.io/iptv/countries/ar.m3u"
 OUTPUT_FILE = "lista.m3u"
+EPG_URL = "https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz"
 
 def strip_accents(s):
     table = str.maketrans("áéíóúüñə", "aeiouune")
@@ -20,7 +21,6 @@ ADULT_KEYWORDS = [
     "milf", "fetish", "hustler"
 ]
 
-# Unicas categorias de tu Xtream que se muestran; el resto queda oculto
 KEEP_GROUPS = [normalize(g) for g in [
     "telenovelas", "radios argentina", "deporte vip", "cultura",
     "infantiles", "deporte argentina", "canales", "argentina regionales",
@@ -34,6 +34,13 @@ KEEP_GROUPS = [normalize(g) for g in [
     "culture;family;general", "classic movies", "classic;movies",
 ]]
 
+# Canales con EPG confirmado en epgshare01 AR1: (patron a buscar en el nombre, tvg-id correcto)
+EPG_MAP = [
+    (re.compile(r'\btelefe\b', re.IGNORECASE), "Telefe.ar"),
+    (re.compile(r'\bc5n\b', re.IGNORECASE), "C5N.ar"),
+    (re.compile(r'\ba24\b', re.IGNORECASE), "A24.ar"),
+]
+
 def get_group(extinf_line):
     m = re.search(r'group-title="([^"]*)"', extinf_line)
     if not m:
@@ -46,6 +53,16 @@ def is_adult(extinf_line):
     name = normalize(extinf_line.rsplit(",", 1)[-1])
     text = group + " " + name
     return any(k in text for k in ADULT_KEYWORDS)
+
+def apply_epg_id(line):
+    name = line.rsplit(",", 1)[-1]
+    for pattern, tvg_id in EPG_MAP:
+        if pattern.search(name):
+            if 'tvg-id="' in line:
+                return re.sub(r'tvg-id="[^"]*"', f'tvg-id="{tvg_id}"', line, count=1)
+            else:
+                return re.sub(r'^(#EXTINF:[-\d]+)', rf'\1 tvg-id="{tvg_id}"', line, count=1)
+    return line
 
 def keep_xtream_entry(extinf_line):
     if is_adult(extinf_line):
@@ -87,6 +104,7 @@ def parse(content, keep_fn):
                 entry.append(lines[i])
                 i += 1
             if keep_fn(line):
+                entry[0] = apply_epg_id(entry[0])
                 out.extend(entry)
         else:
             i += 1
@@ -96,7 +114,7 @@ def main():
     xtream_content = fetch(XTREAM_URL)
     ar_content = fetch(AR_URL)
 
-    merged = ["#EXTM3U"]
+    merged = [f'#EXTM3U x-tvg-url="{EPG_URL}"']
     merged.extend(parse(ar_content, keep_ar_entry))
     merged.extend(parse(xtream_content, keep_xtream_entry))
 
