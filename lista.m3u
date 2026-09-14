@@ -1,9 +1,9 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz"
 #EXTINF:-1 tvg-id="5tv.ar@SD" tvg-logo="https://i.imgur.com/mSn7ACs.png" group-title="General",5tv
 https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="247CanaldeNoticias.ar@SD" tvg-logo="https://i.imgur.com/4hDCB1M.png" group-title="News",24/7 Canal de Noticias
 https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
-#EXTINF:-1 tvg-id="A24.ar@SD" tvg-logo="https://i.imgur.com/LnXQkIU.png" http-user-agent="Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36" group-title="News",A24 (720p)
+#EXTINF:-1 tvg-id="A24.ar" tvg-logo="https://i.imgur.com/LnXQkIU.png" http-user-agent="Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36" group-title="News",A24 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://g5.vxral-slo.transport.edge-access.net/a12/ngrp:a24-100056_all/playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id="ABTVBariloche.ar@SD" tvg-logo="https://i.imgur.com/l4TSfDr.png" group-title="General",ABTV Bariloche
@@ -293,15 +293,15 @@ https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8
 https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 #EXTINF:-1 tvg-id="Telecinco.ar@SD" tvg-logo="https://i.imgur.com/ZDenyAE.png" group-title="Undefined",TeleCinco Trelew (240p)
 https://videohd.live:19360/8016/8016.m3u8
-#EXTINF:-1 tvg-id="TelefeBuenosAires.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="General",Telefe Buenos Aires (1080p)
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="General",Telefe Buenos Aires (1080p)
 http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
-#EXTINF:-1 tvg-id="TelefeInterior.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="General",Telefe Interior (720p)
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="General",Telefe Interior (720p)
 http://200.91.32.158:8080/telefehdvalle/index.m3u8
-#EXTINF:-1 tvg-id="TelefeRosario.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Telefe_Rosario_%282018%29.png/960px-Telefe_Rosario_%282018%29.png" group-title="Undefined",Telefe Rosario (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Telefe_Rosario_%282018%29.png/960px-Telefe_Rosario_%282018%29.png" group-title="Undefined",Telefe Rosario (720p) [Geo-blocked]
 https://smt-usr-edge01.sensa.com.ar/output/ARR2/TelefeRosarioH/playlist.m3u8
-#EXTINF:-1 tvg-id="TelefeSalta.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telefe_Salta_%282018%29.png/960px-Telefe_Salta_%282018%29.png" group-title="Undefined",Telefe Salta
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telefe_Salta_%282018%29.png/960px-Telefe_Salta_%282018%29.png" group-title="Undefined",Telefe Salta
 https://canal11saltatv.unpocodeawita.workers.dev/
-#EXTINF:-1 tvg-id="TelefeTucuman.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Telefe_Tucum%C3%A1n_%282018%29.png/960px-Telefe_Tucum%C3%A1n_%282018%29.png" group-title="Undefined",Telefe Tucuman (1080p)
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Telefe_Tucum%C3%A1n_%282018%29.png/960px-Telefe_Tucum%C3%A1n_%282018%29.png" group-title="Undefined",Telefe Tucuman (1080p)
 https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id="Telemax.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png" group-title="Undefined",Telemax
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
@@ -871,7 +871,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/456701
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490437
 #EXTINF:-1 tvg-id="" tvg-name="ARG | CANAL 26 HD" tvg-logo="http://redworld.pro:8880/images/810cc28538dad9335756506f03410daa.jpg" group-title="⭐️ Argentina",ARG | CANAL 26 HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490438
-#EXTINF:-1 tvg-id="" tvg-name="ARG | TELEFE" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | TELEFE
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-name="ARG | TELEFE" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | TELEFE
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490439
 #EXTINF:-1 tvg-id="" tvg-name="ARG | 13 EL TRECE OPC. A" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | 13 EL TRECE OPC. A
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490440
@@ -879,15 +879,15 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490440
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490441
 #EXTINF:-1 tvg-id="" tvg-name="ARG | 13 El Trece" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | 13 El Trece
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490442
-#EXTINF:-1 tvg-id="" tvg-name="ARG: A24" tvg-logo="http://redworld.pro:8880/images/b58b7fa78b3287771d8164b37a9ee036.png" group-title="⭐️ Argentina",ARG: A24
+#EXTINF:-1 tvg-id="A24.ar" tvg-name="ARG: A24" tvg-logo="http://redworld.pro:8880/images/b58b7fa78b3287771d8164b37a9ee036.png" group-title="⭐️ Argentina",ARG: A24
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490446
-#EXTINF:-1 tvg-id="" tvg-name="ARG | C5N SD" tvg-logo="http://redworld.pro:8880/images/df2eed166b86863330578feebd4315a0.png" group-title="⭐️ Argentina",ARG | C5N SD
+#EXTINF:-1 tvg-id="C5N.ar" tvg-name="ARG | C5N SD" tvg-logo="http://redworld.pro:8880/images/df2eed166b86863330578feebd4315a0.png" group-title="⭐️ Argentina",ARG | C5N SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490448
 #EXTINF:-1 tvg-id="" tvg-name="ARG | VOLVER SD" tvg-logo="http://redworld.pro:8880/images/beae63ae6ceadf54861fc3a9fe4ea8a1.png" group-title="⭐️ Argentina",ARG | VOLVER SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490449
 #EXTINF:-1 tvg-id="" tvg-name="ARG | America TV HD*" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | America TV HD*
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490450
-#EXTINF:-1 tvg-id="" tvg-name="ARG | TELEFE HD" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | TELEFE HD
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-name="ARG | TELEFE HD" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | TELEFE HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490451
 #EXTINF:-1 tvg-id="" tvg-name="CRONICA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWWMmcZCQ5tr1Wv90_JiMagFY_0XjSp1Un3g596k6BiQ&s" group-title="⭐️ Argentina",CRONICA
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490452
@@ -901,7 +901,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490455
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490456
 #EXTINF:-1 tvg-id="" tvg-name="ARG | TN HD" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | TN HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490457
-#EXTINF:-1 tvg-id="" tvg-name="ARG | Telefe" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | Telefe
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-name="ARG | Telefe" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | Telefe
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490458
 #EXTINF:-1 tvg-id="" tvg-name="ARG | NET TV" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | NET TV
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490459
@@ -913,13 +913,13 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490461
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490462
 #EXTINF:-1 tvg-id="" tvg-name="ARG | America" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | America
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490463
-#EXTINF:-1 tvg-id="" tvg-name="ARG | A24" tvg-logo="http://redworld.pro:8880/images/8ac7ad5064fb474a705b93f74e1a358b.png" group-title="⭐️ Argentina",ARG | A24
+#EXTINF:-1 tvg-id="A24.ar" tvg-name="ARG | A24" tvg-logo="http://redworld.pro:8880/images/8ac7ad5064fb474a705b93f74e1a358b.png" group-title="⭐️ Argentina",ARG | A24
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490464
 #EXTINF:-1 tvg-id="" tvg-name="ARG | VER TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKUuk2eK30VLGHUUSRMHqdFVSmqoA9tcaZ4UZINGGp_Q&s" group-title="⭐️ Argentina",ARG | VER TV
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490465
 #EXTINF:-1 tvg-id="" tvg-name="AR | LA NACION" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kqtZB_6WG36RuIrX7Npa_XgoeV-KK74HcQ7m9xWQcKI7E=s900-c-k-c0x00ffffff-no-rj" group-title="⭐️ Argentina",AR | LA NACION
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490466
-#EXTINF:-1 tvg-id="" tvg-name="CANAL A24" tvg-logo="http://redworld.pro:8880/images/b58b7fa78b3287771d8164b37a9ee036.png" group-title="⭐️ Argentina",CANAL A24
+#EXTINF:-1 tvg-id="A24.ar" tvg-name="CANAL A24" tvg-logo="http://redworld.pro:8880/images/b58b7fa78b3287771d8164b37a9ee036.png" group-title="⭐️ Argentina",CANAL A24
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490467
 #EXTINF:-1 tvg-id="" tvg-name="LA GITANA" tvg-logo="http://redworld.pro:8880/images/33298a988f6bcfa3e20e456ec22bed84.jpg" group-title="⭐️ Argentina",LA GITANA
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490468
