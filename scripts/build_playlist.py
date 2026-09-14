@@ -47,7 +47,7 @@ EPG_MAP = [
     (re.compile(r'canal\s*26', re.IGNORECASE), "Canal26.ar"),
     (re.compile(r'cronica', re.IGNORECASE), "CronicaTV.ar"),
     (re.compile(r'la\s*nacion\s*\+?', re.IGNORECASE), "LaNacionPlus.ar"),
-    (re.compile(r'america\s*tv', re.IGNORECASE), "AmericaTV.ar"),
+    (re.compile(r'\bamerica\b', re.IGNORECASE), "AmericaTV.ar"),
     (re.compile(r'\bvolver\b', re.IGNORECASE), "Volver.ar"),
     (re.compile(r'gourmet', re.IGNORECASE), "ElGourmet.ar"),
     (re.compile(r'ciudad\s*magazine', re.IGNORECASE), "CiudadMagazine.ar"),
