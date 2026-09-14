@@ -46,6 +46,11 @@ EPG_MAP = [
     (re.compile(r'el\s*nueve', re.IGNORECASE), "ElNueve.ar"),
     (re.compile(r'canal\s*26', re.IGNORECASE), "Canal26.ar"),
     (re.compile(r'cronica', re.IGNORECASE), "CronicaTV.ar"),
+    (re.compile(r'la\s*nacion\s*\+?', re.IGNORECASE), "LaNacionPlus.ar"),
+    (re.compile(r'america\s*tv', re.IGNORECASE), "AmericaTV.ar"),
+    (re.compile(r'\bvolver\b', re.IGNORECASE), "Volver.ar"),
+    (re.compile(r'gourmet', re.IGNORECASE), "ElGourmet.ar"),
+    (re.compile(r'ciudad\s*magazine', re.IGNORECASE), "CiudadMagazine.ar"),
 ]
 
 def get_group(extinf_line):
@@ -121,7 +126,7 @@ def main():
     xtream_content = fetch(XTREAM_URL)
     ar_content = fetch(AR_URL)
 
-    merged = [f'#EXTM3U x-tvg-url="{EPG_URL}"']
+    merged = [f'#EXTM3U x-tvg-url="{EPG_URL},https://iptv-org.github.io/epg/guides/tv/argentina.epg.xml"']
     merged.extend(parse(ar_content, keep_ar_entry))
     merged.extend(parse(xtream_content, keep_xtream_entry))
 
