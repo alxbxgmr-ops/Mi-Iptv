@@ -6,7 +6,7 @@ import urllib.request
 XTREAM_URL = os.environ["XTREAM_URL"]
 AR_URL = "https://iptv-org.github.io/iptv/countries/ar.m3u"
 OUTPUT_FILE = "lista.m3u"
-EPG_URL = "https://www.open-epg.com/files/argentina4.xml.txt"
+EPG_URL = "https://www.open-epg.com/files/argentina4.xml"
 
 def strip_accents(s):
     table = str.maketrans("áéíóúüñə", "aeiouune")
