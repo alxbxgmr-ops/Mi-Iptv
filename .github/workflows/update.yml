@@ -20,6 +20,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Generar guia EPG combinada
+        run: python scripts/build_epg.py
+
       - name: Generar lista actualizada
         env:
           XTREAM_URL: ${{ secrets.XTREAM_URL }}
@@ -29,6 +32,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add lista.m3u
+          git add lista.m3u epg.xml
           git diff --cached --quiet || git commit -m "Actualización automática"
           git push
