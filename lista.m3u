@@ -1,7 +1,7 @@
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz,https://iptv-org.github.io/epg/guides/tv/argentina.epg.xml,https://www.open-epg.com/files/argentina4.xml.txt,https://www.open-epg.com/files/argentina3.xml.txt"
+#EXTM3U x-tvg-url="https://www.open-epg.com/files/argentina4.xml.txt"
 #EXTINF:-1 tvg-id="5tv.ar@SD" tvg-logo="https://i.imgur.com/mSn7ACs.png" group-title="General",5tv
 https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8
-#EXTINF:-1 tvg-id="247CanaldeNoticias.ar@SD" tvg-logo="https://i.imgur.com/4hDCB1M.png" group-title="News",24/7 Canal de Noticias
+#EXTINF:-1 tvg-id="24/7 Canal de Noticias.ar" tvg-logo="https://i.imgur.com/4hDCB1M.png" group-title="News",24/7 Canal de Noticias
 https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 #EXTINF:-1 tvg-id="A24.ar" tvg-logo="https://i.imgur.com/LnXQkIU.png" http-user-agent="Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36" group-title="News",A24 (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
@@ -17,7 +17,7 @@ http://15.204.246.24:8080/AMCHD/index.m3u8
 #EXTINF:-1 tvg-id="América TV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" http-user-agent="Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36" group-title="General",America TV (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
-#EXTINF:-1 tvg-id="ArgentinisimaSatelital.ar@SD" tvg-logo="https://i.imgur.com/xFgJawa.png" group-title="General",Argentinísima Satelital (540p)
+#EXTINF:-1 tvg-id="Argentinísima Satelital.ar" tvg-logo="https://i.imgur.com/xFgJawa.png" group-title="General",Argentinísima Satelital (540p)
 https://stream1.sersat.com/hls/argentinisima.m3u8
 #EXTINF:-1 tvg-id="AXN.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Movies",AXN Latin America South
 http://45.228.235.116:8000/play/a0iy/index.m3u8
@@ -91,11 +91,11 @@ https://stream.arcast.com.ar/envivo/castv/playlist.m3u8
 https://canal8mdq.unpocodeawita.workers.dev/
 #EXTINF:-1 tvg-id="Canal8SanJuan.ar@SD" tvg-logo="https://files.catbox.moe/f7jbdo.png" group-title="General",Canal 8 San Juan (720p) [Not 24/7]
 https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal 9.ar" tvg-logo="https://audios.radiosnet.com.ar/imgwikidat/img_cuerpo/canal+9+buenos+aires9.jpg" group-title="Entertainment",Canal 9 Link
+#EXTINF:-1 tvg-id="Canal9Link.ar@SD" tvg-logo="https://audios.radiosnet.com.ar/imgwikidat/img_cuerpo/canal+9+buenos+aires9.jpg" group-title="Entertainment",Canal 9 Link
 https://617c5175c970b.streamlock.net:4444/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal 9.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ad/Canal_9_Litoral_2021.png" group-title="Undefined",Canal 9 Litoral (720p)
+#EXTINF:-1 tvg-id="Canal9Litoral.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ad/Canal_9_Litoral_2021.png" group-title="Undefined",Canal 9 Litoral (720p)
 https://stream.arcast.live/ahora/ahora/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal 9.ar" tvg-logo="https://i.imgur.com/xqgRFpC.png" group-title="General",Canal 9 Resistencia (720p)
+#EXTINF:-1 tvg-id="Canal9Resistencia.ar@SD" tvg-logo="https://i.imgur.com/xqgRFpC.png" group-title="General",Canal 9 Resistencia (720p)
 http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal 10.ar" tvg-logo="https://i.imgur.com/87WCHtd.png" group-title="Undefined",Canal 10 Cordoba
 https://stream.arcast.net:4443/canal10/ngrp:canal10_all/playlist.m3u8
@@ -103,17 +103,17 @@ https://stream.arcast.net:4443/canal10/ngrp:canal10_all/playlist.m3u8
 https://g1.mc-hor.transport.edge-access.net/a12/ngrp:canal10mdq-100044_all/Playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id="Canal 12.ar" tvg-logo="https://i.imgur.com/VYcTRbd.png" group-title="Undefined",Canal 12 Web
 https://nd106.republicaservers.com:4433/c7827.mp4
-#EXTINF:-1 tvg-id="Canal 13.ar" tvg-logo="https://i.imgur.com/lmKLiJ3.jpg" group-title="Religious",Canal 13 Jujuy TV (720p)
+#EXTINF:-1 tvg-id="Canal13Jujuy.ar@SD" tvg-logo="https://i.imgur.com/lmKLiJ3.jpg" group-title="Religious",Canal 13 Jujuy TV (720p)
 https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
-#EXTINF:-1 tvg-id="Canal 13.ar" tvg-logo="https://i.imgur.com/OI97Sgq.png" group-title="Undefined",Canal 13 La Rioja (480p)
+#EXTINF:-1 tvg-id="Canal13LaRioja.ar@SD" tvg-logo="https://i.imgur.com/OI97Sgq.png" group-title="Undefined",Canal 13 La Rioja (480p)
 http://arcast.net:1935/mp/mp/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal 13.ar" tvg-logo="https://i.imgur.com/NcfMC29.png" group-title="Undefined",Canal 13 San Luis
+#EXTINF:-1 tvg-id="Canal13SanLuis.ar@SD" tvg-logo="https://i.imgur.com/NcfMC29.png" group-title="Undefined",Canal 13 San Luis
 https://stream.radiosmundiales.com:19360/sanluismas/sanluismas.m3u8
 #EXTINF:-1 tvg-id="Canal21TV.ar@SD" tvg-logo="https://i.imgur.com/Am7yMXg.png" group-title="Undefined",Canal 21 TV (1080p)
 https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal22.ar@SD" tvg-logo="https://i.imgur.com/R4wXVxf.png" group-title="Undefined",Canal 22 (720p)
 https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal26.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png" group-title="News",Canal 26 (1080p)
+#EXTINF:-1 tvg-id="Canal 26.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png" group-title="News",Canal 26 (1080p)
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
 #EXTINF:-1 tvg-id="Canal50Morteros.ar@SD" tvg-logo="https://i.imgur.com/IDhgBav.png" group-title="Undefined",Canal 50 Morteros
 https://online.coopmorteros.coop/canal50/vivo.m3u8
@@ -127,13 +127,13 @@ https://streamconex.com:19360/puan/puan.m3u8
 https://streamconex.com:19360/santaclara-1/santaclara-1.m3u8
 #EXTINF:-1 tvg-id="Canal79VillaMaza.ar@SD" tvg-logo="https://i.imgur.com/HYuSqJy.png" group-title="Undefined",Canal 79 Villa Maza
 https://streamconex.com:19360/villamaza/villamaza.m3u8
-#EXTINF:-1 tvg-id="Canal 9.ar" tvg-logo="https://i.imgur.com/PblsZxz.jpeg" group-title="General",Canal 99 Miramar
+#EXTINF:-1 tvg-id="Canal99Miramar.ar@SD" tvg-logo="https://i.imgur.com/PblsZxz.jpeg" group-title="General",Canal 99 Miramar
 https://vivo.solumedia.com:19360/cardinal/cardinal.m3u8
 #EXTINF:-1 tvg-id="CanalE.ar@SD" tvg-logo="https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg" group-title="Business;News",Canal E (720p)
 https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalLuz.ar@SD" tvg-logo="https://i.imgur.com/GnY6dNT.png" group-title="Religious",Canal Luz
+#EXTINF:-1 tvg-id="Canal Luz.ar" tvg-logo="https://i.imgur.com/GnY6dNT.png" group-title="Religious",Canal Luz
 https://g4.vxral-hor.transport.edge-access.net/a11/ngrp:canal_luz01-100009_all/Playlist.m3u8
-#EXTINF:-1 tvg-id="CanalOrbe21.ar@SD" tvg-logo="https://i.imgur.com/USD6Wn8.png" group-title="Religious",Canal Orbe 21
+#EXTINF:-1 tvg-id="Canal Orbe 21.ar" tvg-logo="https://i.imgur.com/USD6Wn8.png" group-title="Religious",Canal Orbe 21
 https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalProvincial.ar@SD" tvg-logo="https://i.imgur.com/bXHHtcb.png" group-title="General",Canal Provincial (360p)
 https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8
@@ -145,7 +145,7 @@ https://streaming.telered.com.ar/santa-maria/streaming/mystream.m3u8
 https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTINF:-1 tvg-id="CanalTDC.ar@SD" tvg-logo="https://i.imgur.com/nPG38B2.png" group-title="News",Canal TDC
 https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
-#EXTINF:-1 tvg-id="CanalUniversidad.ar@SD" tvg-logo="https://i.imgur.com/trmPKYw.png" group-title="Education",Canal Universidad
+#EXTINF:-1 tvg-id="Canal U.ar" tvg-logo="https://i.imgur.com/trmPKYw.png" group-title="Education",Canal Universidad
 https://videostream.shockmedia.com.ar/hls/canaluniversidadmdp/canaluniversidadmdp.m3u8
 #EXTINF:-1 tvg-id="CarasTV.ar@SD" tvg-logo="https://i.imgur.com/7dl4yQY.jpeg" group-title="Entertainment",Caras TV (1080p)
 https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8
@@ -197,13 +197,13 @@ http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/entertainment.stream/playlist.m3u8
 https://stream.arcast.com.ar/ecotv/ngrp:ecotv_all/playlist.m3u8
 #EXTINF:-1 tvg-id="El Gourmet.ar" tvg-logo="https://i.imgur.com/ByMyRI9.png" group-title="Cooking",El Gourmet South (1080p)
 https://iptv.bitred.cl/ELGOURMET_HD/index.m3u8
-#EXTINF:-1 tvg-id="ElNueve.ar" tvg-logo="https://i.imgur.com/cJHP7bU.png" group-title="General",El Nueve (1080p)
+#EXTINF:-1 tvg-id="Canal 9.ar" tvg-logo="https://i.imgur.com/cJHP7bU.png" group-title="General",El Nueve (1080p)
 http://15.204.246.24:8080/elnueveHD/index.m3u8
 #EXTINF:-1 tvg-id="ElSiete.ar@SD" tvg-logo="https://i.imgur.com/yKb7nfP.png" group-title="General",El Siete (1080p)
 https://edgectc.com/CANAL7_MZA/index.m3u8
-#EXTINF:-1 tvg-id="ElTrece.ar" tvg-logo="https://i.imgur.com/TrgBAdA.png" group-title="General",El Trece (1080p)
+#EXTINF:-1 tvg-id="Canal 13.ar" tvg-logo="https://i.imgur.com/TrgBAdA.png" group-title="General",El Trece (1080p)
 http://15.204.246.24:8080/eltreceHD/index.m3u8
-#EXTINF:-1 tvg-id="EuropaEuropa.ar@SD" tvg-logo="https://i.imgur.com/w5SOfyJ.png" group-title="Series",Europa Europa (1080p)
+#EXTINF:-1 tvg-id="Europa Europa.ar" tvg-logo="https://i.imgur.com/w5SOfyJ.png" group-title="Series",Europa Europa (1080p)
 https://iptv.bitred.cl/EUROPAEUROPA_HD/index.m3u8
 #EXTINF:-1 tvg-id="América TV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="Sports",FIFA+ Hispanic America (720p)
 https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
@@ -227,17 +227,17 @@ https://edge.enhdtv.com/litustv/index.m3u8
 https://vivo.solumedia.com:19360/masfm/masfm.m3u8
 #EXTINF:-1 tvg-id="MercurioNoticias.ar@SD" tvg-logo="https://i.imgur.com/sfd87LX.png" group-title="News",Mercurio Noticias
 https://videostream.shockmedia.com.ar/hls/mercuriotv/mercuriotv.m3u8
-#EXTINF:-1 tvg-id="MetroTV.ar@SD" tvg-logo="https://i.imgur.com/7f7M7zl.png" group-title="Entertainment",Metro TV (720p)
+#EXTINF:-1 tvg-id="Metro.ar" tvg-logo="https://i.imgur.com/7f7M7zl.png" group-title="Entertainment",Metro TV (720p)
 https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 #EXTINF:-1 tvg-id="MisionesCuatro.ar@SD" tvg-logo="https://i.imgur.com/HXRpRlK.png" group-title="General",Misiones Cuatro
 https://iptv.ixfo.com.ar:30443/live-HD/MISIONES4/playlist.m3u8
-#EXTINF:-1 tvg-id="MTVLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="Entertainment",MTV Latin America (1080p)
+#EXTINF:-1 tvg-id="MTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="Entertainment",MTV Latin America (1080p)
 http://15.204.246.24:8080/MTVHD/index.m3u8
-#EXTINF:-1 tvg-id="MusicTop.ar@SD" tvg-logo="https://cdn.mitvstatic.com/channels/ar_musictop_m.png" group-title="Music",MusicTop (1080p)
+#EXTINF:-1 tvg-id="Musictop.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_musictop_m.png" group-title="Music",MusicTop (1080p)
 https://stream-gtlc.telecentro.net.ar/hls/musictophls/0/playlist.m3u8
 #EXTINF:-1 tvg-id="NeoTV.ar@SD" tvg-logo="https://i.imgur.com/Xtu85tb.png" group-title="General",Neo TV
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
-#EXTINF:-1 tvg-id="NETTV.ar" tvg-logo="https://i.imgur.com/IhJ0BjF.png" group-title="General",NET TV (720p)
+#EXTINF:-1 tvg-id="Net TV.ar" tvg-logo="https://i.imgur.com/IhJ0BjF.png" group-title="General",NET TV (720p)
 http://45.134.141.161:2200/ARG/Net_TV/index.m3u8
 #EXTINF:-1 tvg-id="NGFederal.ar@SD" tvg-logo="https://i.imgur.com/lJCIqYn.png" group-title="General",NG Federal (720p)
 http://www.coninfo.net:1935/tvlink/live/playlist.m3u8
@@ -303,7 +303,7 @@ https://smt-usr-edge01.sensa.com.ar/output/ARR2/TelefeRosarioH/playlist.m3u8
 https://canal11saltatv.unpocodeawita.workers.dev/
 #EXTINF:-1 tvg-id="Telefe.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Telefe_Tucum%C3%A1n_%282018%29.png/960px-Telefe_Tucum%C3%A1n_%282018%29.png" group-title="Undefined",Telefe Tucuman (1080p)
 https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
-#EXTINF:-1 tvg-id="Telemax.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png" group-title="Undefined",Telemax
+#EXTINF:-1 tvg-id="Telemax.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png" group-title="Undefined",Telemax
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
 #EXTINF:-1 tvg-id="Telemundo Internacional.ar" tvg-logo="https://i.imgur.com/j2O4ndp.png" group-title="General",Telemundo Internacional (1080p)
 http://138.121.15.230:9002/TELEMUNDO/index.m3u8
@@ -323,13 +323,13 @@ http://190.93.224.42/TNT-NOVELAS/index.m3u8
 https://stmv1.voxtvhd.com.br/canal72tv2/canal72tv2/playlist.m3u8
 #EXTINF:-1 tvg-id="TVManaArgentina.ar@SD" tvg-logo="https://i.imgur.com/jars0mP.png" group-title="Religious",TV Maná Argentina (576p) [Not 24/7]
 https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPublica.ar" tvg-logo="https://i.imgur.com/4dUvFqa.png" group-title="Undefined",TV Publica Fueguina (1080p)
+#EXTINF:-1 tvg-id="TV Pública.ar" tvg-logo="https://i.imgur.com/4dUvFqa.png" group-title="Undefined",TV Publica Fueguina (1080p)
 https://nd106.republicaservers.com/hls/c8094/index.m3u8
 #EXTINF:-1 tvg-id="TVSolidaria.ar@SD" tvg-logo="https://i.imgur.com/M0fMypR.png" group-title="Undefined",TV Solidaria (576p)
 https://canadaremar2.todostreaming.es/live/argentina-web.m3u8
 #EXTINF:-1 tvg-id="TVUniversidad.ar@SD" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
 https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
-#EXTINF:-1 tvg-id="TyCSports.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="Sports",TyC Sports (1080p)
+#EXTINF:-1 tvg-id="TyC Sports.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="Sports",TyC Sports (1080p)
 http://45.181.87.106/TYCSPORTSHD/index.m3u8
 #EXTINF:-1 tvg-id="UnifeTV.ar@SD" tvg-logo="https://i.imgur.com/TLM592m.png" group-title="Religious",Unife TV
 https://cdn.mycloudstream.io/hls/live/broadcast/xundwjvp/index.m3u8
@@ -337,7 +337,7 @@ https://cdn.mycloudstream.io/hls/live/broadcast/xundwjvp/index.m3u8
 https://vivo.solumedia.com:19360/uniteve/uniteve.m3u8
 #EXTINF:-1 tvg-id="UrbanMix.ar@SD" tvg-logo="https://tvomix.com/Logos/Urbanmix.png" group-title="Undefined",Urban Mix (720p)
 https://cloud.tvomix.com/URBANMIX/index.m3u8
-#EXTINF:-1 tvg-id="VTV.ar@SD" tvg-logo="https://i.imgur.com/TLaausJ.png" group-title="Undefined",VerTV (VTV) (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="VTV.ar" tvg-logo="https://i.imgur.com/TLaausJ.png" group-title="Undefined",VerTV (VTV) (720p) [Not 24/7]
 https://5f700d5b2c46f.streamlock.net/vertv/vertv/playlist.m3u8
 #EXTINF:-1 tvg-id="VillaManteroTV.ar@SD" tvg-logo="https://i.imgur.com/mmEenTm.png" group-title="Undefined",Villa Mantero TV
 https://micanal.ovh/livestreams/515.AUTOOAAZ721F.m3u8
@@ -359,7 +359,7 @@ https://stmv6.voxtvhd.com.br/cineclasico/cineclasico/playlist.m3u8
 https://stmv6.voxtvhd.com.br/cineterror/cineterror/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Latino | A3S" tvg-logo="http://redworld.pro:8880/images/275f7a0c2a55fcac1f240202bcf219a0.png" group-title="⭐️ Telenovelas",Latino | A3S
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/135427
-#EXTINF:-1 tvg-id="" tvg-name="Latino | AZ CORAZON" tvg-logo="http://redworld.pro:8880/images/c749fdf8a9943d4e485533e16bed3357.png" group-title="⭐️ Telenovelas",Latino | AZ CORAZON
+#EXTINF:-1 tvg-id="Az Corazón.ar" tvg-name="Latino | AZ CORAZON" tvg-logo="http://redworld.pro:8880/images/c749fdf8a9943d4e485533e16bed3357.png" group-title="⭐️ Telenovelas",Latino | AZ CORAZON
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/135429
 #EXTINF:-1 tvg-id="" tvg-name="Latino | Canal 5" tvg-logo="http://redworld.pro:8880/images/a6347a1fdacab7eaee2f8a72a0dc421d.png" group-title="⭐️ Telenovelas",Latino | Canal 5
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/135430
@@ -533,7 +533,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/327915
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/327916
 #EXTINF:-1 tvg-id="" tvg-name="AR | [$ŠPN) PREMIUM" tvg-logo="http://redworld.pro:8880/images/669465c0bb8b14bd996ebeb2e1b3d0da.png" group-title="⭐️ Deporte Argentina",AR | [$ŠPN) PREMIUM
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/327917
-#EXTINF:-1 tvg-id="" tvg-name="AR | TYC SPORTS" tvg-logo="http://redworld.pro:8880/images/c5509c4b9b2f0749da4aed3a5ae3d7c3.png" group-title="⭐️ Deporte Argentina",AR | TYC SPORTS
+#EXTINF:-1 tvg-id="TyC Sports.ar" tvg-name="AR | TYC SPORTS" tvg-logo="http://redworld.pro:8880/images/c5509c4b9b2f0749da4aed3a5ae3d7c3.png" group-title="⭐️ Deporte Argentina",AR | TYC SPORTS
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/327918
 #EXTINF:-1 tvg-id="" tvg-name="AR | FUT SPORTS" tvg-logo="http://redworld.pro:8880/images/2fcdc22ef23e33323bae9ea84c53d7c7.png" group-title="⭐️ Deporte Argentina",AR | FUT SPORTS
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/327919
@@ -573,7 +573,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/354322
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/354323
 #EXTINF:-1 tvg-id="" tvg-name="Canal 36 FHD (Costa Rica)" tvg-logo="" group-title="⭐️ Canales "Conexiones Lentas"",Canal 36 FHD (Costa Rica)
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/354333
-#EXTINF:-1 tvg-id="" tvg-name="Telesur HD (Costa Rica)" tvg-logo="" group-title="⭐️ Canales "Conexiones Lentas"",Telesur HD (Costa Rica)
+#EXTINF:-1 tvg-id="teleSUR.ar" tvg-name="Telesur HD (Costa Rica)" tvg-logo="" group-title="⭐️ Canales "Conexiones Lentas"",Telesur HD (Costa Rica)
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/354334
 #EXTINF:-1 tvg-id="" tvg-name="ABC HD (Paraguay)" tvg-logo="" group-title="⭐️ Canales "Conexiones Lentas"",ABC HD (Paraguay)
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/354337
@@ -581,9 +581,9 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/354337
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359917
 #EXTINF:-1 tvg-id="" tvg-name="Canal Atv - C.A.B.A" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Atv - C.A.B.A
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359918
-#EXTINF:-1 tvg-id="NETTV.ar" tvg-name="Canal Net Tv - C.A.B.A" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Net Tv - C.A.B.A
+#EXTINF:-1 tvg-id="Net TV.ar" tvg-name="Canal Net Tv - C.A.B.A" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Net Tv - C.A.B.A
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359919
-#EXTINF:-1 tvg-id="" tvg-name="Canal Urbana Teve - C.A.B.A" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Urbana Teve - C.A.B.A
+#EXTINF:-1 tvg-id="Canal U.ar" tvg-name="Canal Urbana Teve - C.A.B.A" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Urbana Teve - C.A.B.A
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359920
 #EXTINF:-1 tvg-id="" tvg-name="Canal Neo Tv  - Buenos Aires" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Neo Tv  - Buenos Aires
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359922
@@ -593,7 +593,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359923
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359924
 #EXTINF:-1 tvg-id="" tvg-name="Canal Cinco Tv - Buenos Aires" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Cinco Tv - Buenos Aires
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359925
-#EXTINF:-1 tvg-id="" tvg-name="Canal UNLP - Buenos Aires" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal UNLP - Buenos Aires
+#EXTINF:-1 tvg-id="Canal U.ar" tvg-name="Canal UNLP - Buenos Aires" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal UNLP - Buenos Aires
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359927
 #EXTINF:-1 tvg-id="" tvg-name="Canal 8 Mar del Plata - Buenos Aires" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 8 Mar del Plata - Buenos Aires
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359928
@@ -613,13 +613,13 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359936
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359938
 #EXTINF:-1 tvg-id="Canal 10.ar" tvg-name="Canal 10 Cordoba - Cordoba" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 10 Cordoba - Cordoba
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359940
-#EXTINF:-1 tvg-id="" tvg-name="Canal U - Cordoba" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal U - Cordoba
+#EXTINF:-1 tvg-id="Canal U.ar" tvg-name="Canal U - Cordoba" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal U - Cordoba
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359941
-#EXTINF:-1 tvg-id="" tvg-name="Canal unitv - Cordoba" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal unitv - Cordoba
+#EXTINF:-1 tvg-id="Canal U.ar" tvg-name="Canal unitv - Cordoba" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal unitv - Cordoba
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359942
 #EXTINF:-1 tvg-id="" tvg-name="Canal Quatro Tv - Cordoba" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Quatro Tv - Cordoba
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359943
-#EXTINF:-1 tvg-id="Canal 9.ar" tvg-name="Canal 9 Río cuarto Tv - Cordoba" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 9 Río cuarto Tv - Cordoba
+#EXTINF:-1 tvg-id="" tvg-name="Canal 9 Río cuarto Tv - Cordoba" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 9 Río cuarto Tv - Cordoba
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359944
 #EXTINF:-1 tvg-id="" tvg-name="Canal C20 - Cordoba" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal C20 - Cordoba
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359945
@@ -629,7 +629,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/359946
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/360492
 #EXTINF:-1 tvg-id="" tvg-name="Canal ACV HD - Corrientes" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal ACV HD - Corrientes
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/360493
-#EXTINF:-1 tvg-id="Canal 9.ar" tvg-name="Canal 9 Litoral - Entre Rios" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 9 Litoral - Entre Rios
+#EXTINF:-1 tvg-id="" tvg-name="Canal 9 Litoral - Entre Rios" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 9 Litoral - Entre Rios
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/360495
 #EXTINF:-1 tvg-id="" tvg-name="Canal Lapacho Tv - Formosa" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Lapacho Tv - Formosa
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/360496
@@ -637,11 +637,11 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/360496
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/360497
 #EXTINF:-1 tvg-id="" tvg-name="Canal 7 - Jujui" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 7 - Jujui
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/360498
-#EXTINF:-1 tvg-id="Canal 13.ar" tvg-name="Canal 13 - Jujui" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 13 - Jujui
+#EXTINF:-1 tvg-id="" tvg-name="Canal 13 - Jujui" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 13 - Jujui
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/360499
 #EXTINF:-1 tvg-id="" tvg-name="Canal Televisión Publica Panpeana - La Pampa" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Televisión Publica Panpeana - La Pampa
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/360501
-#EXTINF:-1 tvg-id="Canal 9.ar" tvg-name="Canal 9 Televida - Mendoza" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 9 Televida - Mendoza
+#EXTINF:-1 tvg-id="" tvg-name="Canal 9 Televida - Mendoza" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal 9 Televida - Mendoza
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/361263
 #EXTINF:-1 tvg-id="" tvg-name="Canal Señal U - Mendoza" tvg-logo="" group-title="⭐️ Argentina Regionales",Canal Señal U - Mendoza
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/361264
@@ -685,7 +685,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/383998
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/384000
 #EXTINF:-1 tvg-id="" tvg-name="SOLIDARIA TV ARGENTINA" tvg-logo="http://goldfull.pro:8880/images/82c7e33110551d4e86001d8e2dc58abd.jpg" group-title="⭐️ Tv Religiosos",SOLIDARIA TV ARGENTINA
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/384001
-#EXTINF:-1 tvg-id="" tvg-name="EWTN" tvg-logo="https://www.ewtn.com/assets/ewtn-badge-58f0dd80b4f161197d2d55f4af30ac2a7d29fcd9677c9f84afd61b53890fffe7.jpg" group-title="⭐️ Tv Religiosos",EWTN
+#EXTINF:-1 tvg-id="EWTN.ar" tvg-name="EWTN" tvg-logo="https://www.ewtn.com/assets/ewtn-badge-58f0dd80b4f161197d2d55f4af30ac2a7d29fcd9677c9f84afd61b53890fffe7.jpg" group-title="⭐️ Tv Religiosos",EWTN
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/384002
 #EXTINF:-1 tvg-id="" tvg-name="SUBLIME GRACIA TV FORMOSA" tvg-logo="http://www.radiosublimegraciatv.com.ar/img/logo.png" group-title="⭐️ Tv Religiosos",SUBLIME GRACIA TV FORMOSA
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/384003
@@ -725,7 +725,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414455
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414457
 #EXTINF:-1 tvg-id="" tvg-name="CINE  | *C1NEMAX* SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkxewXQeeMqr4uYRrmID1JE2WWx2qoDvNddQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | *C1NEMAX* SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414458
-#EXTINF:-1 tvg-id="Star Channel.ar" tvg-name="CINE | STAR CHANNEL  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUSC9j9pUIeP68TVeZFtU_BOi3beYtu0zAw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | STAR CHANNEL  HD
+#EXTINF:-1 tvg-id="Star Channel HD.ar" tvg-name="CINE | STAR CHANNEL  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUSC9j9pUIeP68TVeZFtU_BOi3beYtu0zAw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | STAR CHANNEL  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414459
 #EXTINF:-1 tvg-id="Star Channel.ar" tvg-name="CINE | STAR CHANNEL  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUSC9j9pUIeP68TVeZFtU_BOi3beYtu0zAw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | STAR CHANNEL  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414460
@@ -739,7 +739,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414464
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414465
 #EXTINF:-1 tvg-id="HBO.ar" tvg-name="CINE | *HBO* F@MILY  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA4WC_DVLdy7I-kMJhcpStbdiBOe00hos0AA&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | *HBO* F@MILY  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414466
-#EXTINF:-1 tvg-id="HBO.ar" tvg-name="CINE | *HBO* HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUtbjnKsynnCmmwzyL97_V5eVimvq_l9nScg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | *HBO* HD
+#EXTINF:-1 tvg-id="HBO HD.ar" tvg-name="CINE | *HBO* HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUtbjnKsynnCmmwzyL97_V5eVimvq_l9nScg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | *HBO* HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414468
 #EXTINF:-1 tvg-id="HBO.ar" tvg-name="CINE  | *HBO* SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUtbjnKsynnCmmwzyL97_V5eVimvq_l9nScg&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE  | *HBO* SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414469
@@ -775,7 +775,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414485
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414486
 #EXTINF:-1 tvg-id="Sony.ar" tvg-name="CINE | SONY  FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUM5s02mVJaBsX8VO8xATB9ivrYta859D9g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SONY  FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414488
-#EXTINF:-1 tvg-id="Sony.ar" tvg-name="CINE | SONY  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUM5s02mVJaBsX8VO8xATB9ivrYta859D9g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SONY  HD
+#EXTINF:-1 tvg-id="Sony HD.ar" tvg-name="CINE | SONY  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUM5s02mVJaBsX8VO8xATB9ivrYta859D9g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SONY  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414489
 #EXTINF:-1 tvg-id="Sony.ar" tvg-name="CINE | SONY  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUM5s02mVJaBsX8VO8xATB9ivrYta859D9g&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | SONY  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414490
@@ -821,11 +821,11 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414509
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414510
 #EXTINF:-1 tvg-id="Golden.ar" tvg-name="CINE | GOLDEN EDG  SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw_MXCN8YTJUs_t4zTDTivh73cIHqA2A3Drw&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | GOLDEN EDG  SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414511
-#EXTINF:-1 tvg-id="Paramount Network.ar" tvg-name="CINE | PARAMOUNT CHANEL FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoLcVhN7sW34YgTU8sCI6EtLwRAeGUp9-h_A&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | PARAMOUNT CHANEL FHD
+#EXTINF:-1 tvg-id="" tvg-name="CINE | PARAMOUNT CHANEL FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoLcVhN7sW34YgTU8sCI6EtLwRAeGUp9-h_A&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | PARAMOUNT CHANEL FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414512
-#EXTINF:-1 tvg-id="Paramount Network.ar" tvg-name="CINE | PARAMOUNT CHANEL HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoLcVhN7sW34YgTU8sCI6EtLwRAeGUp9-h_A&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | PARAMOUNT CHANEL HD
+#EXTINF:-1 tvg-id="" tvg-name="CINE | PARAMOUNT CHANEL HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoLcVhN7sW34YgTU8sCI6EtLwRAeGUp9-h_A&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | PARAMOUNT CHANEL HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414513
-#EXTINF:-1 tvg-id="Paramount Network.ar" tvg-name="CINE | PARAMOUNT CHANEL SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoLcVhN7sW34YgTU8sCI6EtLwRAeGUp9-h_A&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | PARAMOUNT CHANEL SD
+#EXTINF:-1 tvg-id="" tvg-name="CINE | PARAMOUNT CHANEL SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoLcVhN7sW34YgTU8sCI6EtLwRAeGUp9-h_A&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE | PARAMOUNT CHANEL SD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414514
 #EXTINF:-1 tvg-id="Golden.ar" tvg-name="CINE GOLDEN PLUS FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEUkFenrLxGFpEKOzzTEl2crLHBNePJehWFQ&usqp=CAU" group-title="⭐️ CINE PREMIUM",CINE GOLDEN PLUS FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/414515
@@ -869,15 +869,15 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/449493
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/456701
 #EXTINF:-1 tvg-id="TN.ar" tvg-name="TN NOTICIAS" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",TN NOTICIAS
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490437
-#EXTINF:-1 tvg-id="Canal26.ar" tvg-name="ARG | CANAL 26 HD" tvg-logo="http://redworld.pro:8880/images/810cc28538dad9335756506f03410daa.jpg" group-title="⭐️ Argentina",ARG | CANAL 26 HD
+#EXTINF:-1 tvg-id="Canal 26.ar" tvg-name="ARG | CANAL 26 HD" tvg-logo="http://redworld.pro:8880/images/810cc28538dad9335756506f03410daa.jpg" group-title="⭐️ Argentina",ARG | CANAL 26 HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490438
 #EXTINF:-1 tvg-id="Telefe.ar" tvg-name="ARG | TELEFE" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | TELEFE
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490439
-#EXTINF:-1 tvg-id="ElTrece.ar" tvg-name="ARG | 13 EL TRECE OPC. A" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | 13 EL TRECE OPC. A
+#EXTINF:-1 tvg-id="Canal 13.ar" tvg-name="ARG | 13 EL TRECE OPC. A" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | 13 EL TRECE OPC. A
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490440
-#EXTINF:-1 tvg-id="ElTrece.ar" tvg-name="ARG | 13 El Trece" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | 13 El Trece
+#EXTINF:-1 tvg-id="Canal 13.ar" tvg-name="ARG | 13 El Trece" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | 13 El Trece
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490441
-#EXTINF:-1 tvg-id="ElTrece.ar" tvg-name="ARG | 13 El Trece" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | 13 El Trece
+#EXTINF:-1 tvg-id="Canal 13.ar" tvg-name="ARG | 13 El Trece" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | 13 El Trece
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490442
 #EXTINF:-1 tvg-id="A24.ar" tvg-name="ARG: A24" tvg-logo="http://redworld.pro:8880/images/b58b7fa78b3287771d8164b37a9ee036.png" group-title="⭐️ Argentina",ARG: A24
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490446
@@ -889,25 +889,25 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490449
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490450
 #EXTINF:-1 tvg-id="Telefe.ar" tvg-name="ARG | TELEFE HD" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | TELEFE HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490451
-#EXTINF:-1 tvg-id="CronicaTV.ar" tvg-name="CRONICA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWWMmcZCQ5tr1Wv90_JiMagFY_0XjSp1Un3g596k6BiQ&s" group-title="⭐️ Argentina",CRONICA
+#EXTINF:-1 tvg-id="Cronica.ar" tvg-name="CRONICA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWWMmcZCQ5tr1Wv90_JiMagFY_0XjSp1Un3g596k6BiQ&s" group-title="⭐️ Argentina",CRONICA
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490452
 #EXTINF:-1 tvg-id="Ciudad Magazine.ar" tvg-name="CIUDAD MAGAZINE" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a8/Ciudadmagazine-logonuevo.png/revision/latest?cb=20210525001116&path-prefix=es" group-title="⭐️ Argentina",CIUDAD MAGAZINE
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490453
 #EXTINF:-1 tvg-id="TN.ar" tvg-name="TN Noticias" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",TN Noticias
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490454
-#EXTINF:-1 tvg-id="TVPublica.ar" tvg-name="ARG | TV Publica FHD" tvg-logo="http://redworld.pro:8880/images/e18523361e24e6508919b799b7e0a144.png" group-title="⭐️ Argentina",ARG | TV Publica FHD
+#EXTINF:-1 tvg-id="TV Pública.ar" tvg-name="ARG | TV Publica FHD" tvg-logo="http://redworld.pro:8880/images/e18523361e24e6508919b799b7e0a144.png" group-title="⭐️ Argentina",ARG | TV Publica FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490455
-#EXTINF:-1 tvg-id="TVPublica.ar" tvg-name="ARG | TV Publica" tvg-logo="http://redworld.pro:8880/images/e18523361e24e6508919b799b7e0a144.png" group-title="⭐️ Argentina",ARG | TV Publica
+#EXTINF:-1 tvg-id="TV Pública.ar" tvg-name="ARG | TV Publica" tvg-logo="http://redworld.pro:8880/images/e18523361e24e6508919b799b7e0a144.png" group-title="⭐️ Argentina",ARG | TV Publica
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490456
 #EXTINF:-1 tvg-id="TN.ar" tvg-name="ARG | TN HD" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | TN HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490457
 #EXTINF:-1 tvg-id="Telefe.ar" tvg-name="ARG | Telefe" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | Telefe
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490458
-#EXTINF:-1 tvg-id="NETTV.ar" tvg-name="ARG | NET TV" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | NET TV
+#EXTINF:-1 tvg-id="Net TV.ar" tvg-name="ARG | NET TV" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | NET TV
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490459
-#EXTINF:-1 tvg-id="ElNueve.ar" tvg-name="ARG | El Nueve  HD" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | El Nueve  HD
+#EXTINF:-1 tvg-id="Canal 9.ar" tvg-name="ARG | El Nueve  HD" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | El Nueve  HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490460
-#EXTINF:-1 tvg-id="CineAr.ar" tvg-name="ARG | Cine AR" tvg-logo="http://redworld.pro:8880/images/9886b06ab7ad16606fa6213688d32688.png" group-title="⭐️ Argentina",ARG | Cine AR
+#EXTINF:-1 tvg-id="" tvg-name="ARG | Cine AR" tvg-logo="http://redworld.pro:8880/images/9886b06ab7ad16606fa6213688d32688.png" group-title="⭐️ Argentina",ARG | Cine AR
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490461
 #EXTINF:-1 tvg-id="Volver.ar" tvg-name="ARG | Volver" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | Volver
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490462
@@ -917,7 +917,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490463
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490464
 #EXTINF:-1 tvg-id="" tvg-name="ARG | VER TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKUuk2eK30VLGHUUSRMHqdFVSmqoA9tcaZ4UZINGGp_Q&s" group-title="⭐️ Argentina",ARG | VER TV
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490465
-#EXTINF:-1 tvg-id="LA NACION +.ar" tvg-name="AR | LA NACION" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kqtZB_6WG36RuIrX7Npa_XgoeV-KK74HcQ7m9xWQcKI7E=s900-c-k-c0x00ffffff-no-rj" group-title="⭐️ Argentina",AR | LA NACION
+#EXTINF:-1 tvg-id="LN+.ar" tvg-name="AR | LA NACION" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kqtZB_6WG36RuIrX7Npa_XgoeV-KK74HcQ7m9xWQcKI7E=s900-c-k-c0x00ffffff-no-rj" group-title="⭐️ Argentina",AR | LA NACION
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490466
 #EXTINF:-1 tvg-id="A24.ar" tvg-name="CANAL A24" tvg-logo="http://redworld.pro:8880/images/b58b7fa78b3287771d8164b37a9ee036.png" group-title="⭐️ Argentina",CANAL A24
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490467
@@ -925,9 +925,9 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490467
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490468
 #EXTINF:-1 tvg-id="" tvg-name="MZA FM" tvg-logo="http://redworld.pro:8880/images/4b68e0f60347c984b048bca901d9f152.jpg" group-title="⭐️ Argentina",MZA FM
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490469
-#EXTINF:-1 tvg-id="ElNueve.ar" tvg-name="ARG | EL NUEVE HD" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | EL NUEVE HD
+#EXTINF:-1 tvg-id="Canal 9.ar" tvg-name="ARG | EL NUEVE HD" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ Argentina",ARG | EL NUEVE HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490472
-#EXTINF:-1 tvg-id="CronicaTV.ar" tvg-name="ARG | CRONICA TV" tvg-logo="http://redworld.pro:8880/images/e6d86f0dd1f02038b3dd1311ed5f7639.jpeg" group-title="⭐️ Argentina",ARG | CRONICA TV
+#EXTINF:-1 tvg-id="Cronica.ar" tvg-name="ARG | CRONICA TV" tvg-logo="http://redworld.pro:8880/images/e6d86f0dd1f02038b3dd1311ed5f7639.jpeg" group-title="⭐️ Argentina",ARG | CRONICA TV
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490473
 #EXTINF:-1 tvg-id="" tvg-name="RADIO OVACION" tvg-logo="https://play-lh.googleusercontent.com/gNBnZ7IbCpiPsxR3cQgTrS_RWTsX-snOd5UCu_7RaV9f1I1_qgIUlbWLdAZhCZEozVo" group-title="⭐️ Argentina",RADIO OVACION
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/490474
@@ -987,7 +987,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534787
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534788
 #EXTINF:-1 tvg-id="" tvg-name="MX | CANAL ONCE NACIONAL" tvg-logo="http://redworld.pro:8880/images/c8dcb6cc1425cd9de310d8eda1bed231.png" group-title="⭐️ México",MX | CANAL ONCE NACIONAL
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534789
-#EXTINF:-1 tvg-id="" tvg-name="MX | HOLA TV" tvg-logo="http://redworld.pro:8880/images/8c719c19c406ff800c60130a594a21ec.png" group-title="⭐️ México",MX | HOLA TV
+#EXTINF:-1 tvg-id="Hola TV.ar" tvg-name="MX | HOLA TV" tvg-logo="http://redworld.pro:8880/images/8c719c19c406ff800c60130a594a21ec.png" group-title="⭐️ México",MX | HOLA TV
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534790
 #EXTINF:-1 tvg-id="" tvg-name="MX | A+" tvg-logo="http://redworld.pro:8880/images/ef7c9461a72bfa1407826f02088236ac.png" group-title="⭐️ México",MX | A+
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534791
@@ -997,7 +997,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534792
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534793
 #EXTINF:-1 tvg-id="" tvg-name="MX | MEXIQUENSE TV" tvg-logo="http://redworld.pro:8880/images/bf93b4d64ff458098826860e4b945fc1.png" group-title="⭐️ México",MX | MEXIQUENSE TV
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534794
-#EXTINF:-1 tvg-id="" tvg-name="MX | MAS CHIC" tvg-logo="http://redworld.pro:8880/images/ffa6d65bbbcdbda230c37ff5a49ca239.png" group-title="⭐️ México",MX | MAS CHIC
+#EXTINF:-1 tvg-id="Más Chic.ar" tvg-name="MX | MAS CHIC" tvg-logo="http://redworld.pro:8880/images/ffa6d65bbbcdbda230c37ff5a49ca239.png" group-title="⭐️ México",MX | MAS CHIC
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534795
 #EXTINF:-1 tvg-id="" tvg-name="MX | MILENIO HD" tvg-logo="http://redworld.pro:8880/images/78805a221a988e79ef3f42d7c5bfd418.png" group-title="⭐️ México",MX | MILENIO HD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534796
@@ -1035,7 +1035,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534813
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534814
 #EXTINF:-1 tvg-id="" tvg-name="MEX II AZTECA INTERNACIONAL HD (PP)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs-Wfr_kRdeHrHpDDyPZ-O__nV2Vm57Wj6oqHovOzBlw&s" group-title="⭐️ México",MEX II AZTECA INTERNACIONAL HD (PP)
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534815
-#EXTINF:-1 tvg-id="" tvg-name="MX | UMTV | MX" tvg-logo="http://redworld.pro:8880/images/3ae6ba11d11a7b950d343f573b354b2a.png" group-title="⭐️ México",MX | UMTV | MX
+#EXTINF:-1 tvg-id="MTV.ar" tvg-name="MX | UMTV | MX" tvg-logo="http://redworld.pro:8880/images/3ae6ba11d11a7b950d343f573b354b2a.png" group-title="⭐️ México",MX | UMTV | MX
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534816
 #EXTINF:-1 tvg-id="" tvg-name="MX | Bandamax Hd®" tvg-logo="http://redworld.pro:8880/images/3ae6ba11d11a7b950d343f573b354b2a.png" group-title="⭐️ México",MX | Bandamax Hd®
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534817
@@ -1047,7 +1047,7 @@ http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534819
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534820
 #EXTINF:-1 tvg-id="TLC.ar" tvg-name="MX |* DISCOVERY TLC FHD" tvg-logo="http://redworld.pro:8880/images/a08e51db65905e05929c38ec7af217f1.png" group-title="⭐️ México",MX |* DISCOVERY TLC FHD
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534822
-#EXTINF:-1 tvg-id="" tvg-name="CINEMAX" tvg-logo="http://redworld.pro:8880/images/8d977b8d465c9db48d7ece30651d2605.png" group-title="⭐️ México",CINEMAX
+#EXTINF:-1 tvg-id="Cinemax.ar" tvg-name="CINEMAX" tvg-logo="http://redworld.pro:8880/images/8d977b8d465c9db48d7ece30651d2605.png" group-title="⭐️ México",CINEMAX
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534823
 #EXTINF:-1 tvg-id="" tvg-name="Coral TV (480p)" tvg-logo="http://onerestream.us:80/images/YNKPF0uS6GOfopdjzrfmIHvBimC8Hdfh4mjE8mP6rmNugQKXWV8dPh_ICEZ4ZF5S.png" group-title="⭐️ México",Coral TV (480p)
 http://redworld.pro:8880/6AGTAWYQTSjW/mWWmtJ6RGXBB/534825
