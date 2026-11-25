@@ -254,18 +254,88 @@ def parse(content, keep_fn):
             i += 1
     return out
 
-def main():
-    xtream_content = fetch(XTREAM_URL)
-    ar_content = fetch(AR_URL)
+EXTRA_SOURCES = [
+    ("https://iptv-org.github.io/iptv/index.m3u", "ar"),
+    ("https://telechancho.github.io/infinity.m3u", "ar"),
+    ("https://www.m3u.cl/lista/AR.m3u", "all"),
+]
+MIN_CHANNELS = 50
 
+ADULT_KEYWORDS.extend([
+    "hentai", "onlyfans", "hardcore", "dorcel", "bangbros", "sexy", "sexo",
+])
+
+def attr(line, name):
+    m = re.search(name + r'="([^"]*)"', line)
+    return m.group(1) if m else ""
+
+def is_argentina(line):
+    tvg_id = attr(line, "tvg-id")
+    group = normalize(attr(line, "group-title"))
+    name = normalize(line.rsplit(",", 1)[-1])
+    if re.search(r'\.ar(@|$)', tvg_id, re.IGNORECASE):
+        return True
+    if "argentin" in group or "argentin" in name:
+        return True
+    return bool(re.match(r'(ar|arg)\s*[|:\-]', name))
+
+def parse_extra(content, keep_fn, seen_urls):
+    lines = content.splitlines()
+    out = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if line.startswith("#EXTINF"):
+            entry = [line]
+            i += 1
+            while i < len(lines) and not lines[i].startswith("#EXTINF"):
+                entry.append(lines[i])
+                i += 1
+            urls = [l.strip() for l in entry[1:]
+                    if l.strip() and not l.startswith("#")]
+            url = urls[0] if urls else ""
+            if not url or url in seen_urls:
+                continue
+            if is_adult(line) or not keep_fn(line):
+                continue
+            seen_urls.add(url)
+            entry[0] = apply_epg_id(entry[0])
+            out.extend(entry)
+        else:
+            i += 1
+    return out
+
+def count_channels(lines):
+    return sum(1 for l in lines if l.startswith("#EXTINF"))
+
+def main():
+    seen_urls = set()
     merged = [f'#EXTM3U x-tvg-url="{EPG_URL}"']
-    merged.extend(parse(ar_content, keep_ar_entry))
-    merged.extend(parse(xtream_content, keep_xtream_entry))
+
+    ar_lines = parse_extra(fetch(AR_URL), lambda l: True, seen_urls)
+    print(f"iptv-org AR: {count_channels(ar_lines)} canales")
+    merged.extend(ar_lines)
+
+    for url, mode in EXTRA_SOURCES:
+        try:
+            content = fetch(url, retries=3)
+        except Exception as e:
+            print(f"Fuente omitida {url}: {e}")
+            continue
+        keep_fn = is_argentina if mode == "ar" else (lambda l: True)
+        lines = parse_extra(content, keep_fn, seen_urls)
+        print(f"{url}: {count_channels(lines)} canales agregados")
+        merged.extend(lines)
+
+    total = count_channels(merged)
+    if total < MIN_CHANNELS:
+        raise SystemExit(
+            f"Solo {total} canales: no se guarda para no pisar la lista anterior"
+        )
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(merged) + "\n")
-
-    print(f"Listo: {len(merged)} lineas escritas en {OUTPUT_FILE}")
+    print(f"Listo: {total} canales en {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
